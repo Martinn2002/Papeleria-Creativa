@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    padding: 0 auto ;
     box-sizing: border-box;
 }
 body{
@@ -28,6 +29,7 @@ footer{
             font-weight: lighter;
             &:hover{
                 color: $rosado-especifico;
+            }
         }
     }
 
