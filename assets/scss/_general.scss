@@ -3,11 +3,21 @@
     padding: 0 auto;
     box-sizing: border-box;
 }
-body{
+.margen{
     margin: 0 auto;
     width: 80%;
 }
-
+h1{
+    font-family: $titulos;
+    font-size:$h1;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:$rosado-fondo;
+    width: 100%;
+    height: 100px;
+}
 
 //  Header  //
 header{
@@ -17,13 +27,90 @@ header{
 
 }
 //  Header  //
+//breadcrumb//
+.breadcrumb {
+    --bs-breadcrumb-padding-x: 0;
+    --bs-breadcrumb-padding-y: 0;
+    --bs-breadcrumb-margin-bottom: 1rem;
+    --bs-breadcrumb-bg: ;
+    --bs-breadcrumb-border-radius: ;
+    --bs-breadcrumb-divider-color: var(--bs-secondary-color);
+    --bs-breadcrumb-item-padding-x: 0.5rem;
+    --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: none;
+    padding: 10px 10px;
+    margin-bottom: var(--bs-breadcrumb-margin-bottom);
+    font-size: var(--bs-breadcrumb-font-size);
+    list-style: none;
+    background-color:green;
+    border-radius: var(--bs-breadcrumb-border-radius);
+        a{
+            text-decoration: none;
+            color: #000;
+            font-weight: 100;
+        }
+        svg{
+            margin-top: 4px;
+        }
+  }
+  
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 8px;
+    background-color: yellow;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: var(--bs-breadcrumb-divider-color);
+    content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+}
+.breadcrumb-item.active {
+    color: #cd0362;
+}  
+//breadcrumb//
 
 
 //Seccion Contactanos//
-h1{
-    font-family: $titulos;
-    font-size:$tamaño-h1;
+.seccion-mensaje{
+    margin-top: 5%;  
 }
+.formulario-contacto{
+    margin-top: 5%;
+    .form-label{
+        font-family: $titulos;
+        font-size: $h4;
+    }
+    .form-control{
+        padding: 8px;
+        font-size: 22px;
+        color: #000000;
+        border-radius: 4px;
+        border: 1px solid #949494;
+        transition: border;
+    }
+    .form-control:focus {
+        border-color:#C62F7A;
+        outline: 0;
+        box-shadow: 0 0 0 0.05rem #C62F7A;
+    }
+    textarea{
+        height: 200px;
+    }
+    button{
+        border:#C62F7A;
+    }
+}
+
+.mensaje{
+    h2{
+        font-family: $titulos;
+        font-size: $h2;
+        text-align:center;
+    }
+}
+
+
 //Seccion Contactanos//
 
 
@@ -66,13 +153,13 @@ footer{
     p{
         font-family: $parrafos;
         font-weight: lighter;
-        font-size: 16px;
+        font-size:$letra-parrafo;
     }
 
     h5{
         font-family: $titulos;
         font-weight: bold;
-        font-size: 16px;
+        font-size:$letra-parrafo;
     }
 
     h5, img{
