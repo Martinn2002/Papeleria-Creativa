@@ -12093,7 +12093,7 @@ footer .footerinformacion a, footer .footercontacto a {
   font-weight: lighter;
 }
 footer .footerinformacion a:hover, footer .footercontacto a:hover {
-  color: #CD0362;
+  color: #E09AA1;
 }
 footer .lineadivisorafooter {
   height: 1px;
@@ -12101,6 +12101,7 @@ footer .lineadivisorafooter {
 }
 footer .lineadivisorafootertop {
   margin-bottom: 80px;
+  margin-top: 50px;
 }
 footer .lineadivisorafooterbottom {
   margin-top: 80px;
@@ -12129,6 +12130,8 @@ footer .footerform form {
 footer .footerform input {
   height: 45px;
   width: 100%;
+  border-radius: 6px;
+  outline: none;
 }
 footer .footerform button {
   position: relative;
@@ -12140,6 +12143,12 @@ footer .footerform button {
   border: none;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+footer .footerform button:hover {
+  background-color: #E09AA1;
+}
+footer .footerform button:hoversvg {
+  color: "Nunito Sans", sans-serif;
 }
 footer .footerform svg {
   color: white;
@@ -12164,9 +12173,24 @@ footer .footerform .textobajoformfooter svg {
   vertical-align: baseline;
 }
 footer .footerform .textobajoformfooter svg:hover {
-  color: #CD0362;
+  color: #E09AA1;
 }
 
+.copyrightfooter {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .footerform button {
+    left: 95%;
+  }
+  footer .footerinformacion, footer .footercontacto, footer .footerform {
+    margin-top: 50px;
+  }
+  footer .footerinformacion h5, footer .footerinformacion .h5, footer .footercontacto h5, footer .footercontacto .h5, footer .footerform h5, footer .footerform .h5 {
+    margin-bottom: 15px;
+  }
+}
 .tarjeta {
   padding: 19px 45px;
   height: 458px;
