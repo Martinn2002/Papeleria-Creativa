@@ -11998,6 +11998,7 @@ header .bg-body-tertiary {
 }
 
 footer a {
+footer .footerinformacion a, footer .footercontacto a {
   color: #000;
   font-weight: lighter;
 }
@@ -12016,6 +12017,7 @@ footer .lineadivisorafooterbottom {
   margin-top: 80px;
   margin-bottom: 15px;
 }
+footer .footerbrand img {
   height: auto;
   width: 100%;
 }
@@ -12064,6 +12066,17 @@ footer .footerform .textobajoformfooter h5, footer .footerform .textobajoformfoo
 }
 footer .footerform .textobajoformfooter a {
   margin: 0px;
+}
+footer .footerform .textobajoformfooter svg {
+  color: #000;
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+  vertical-align: baseline;
+}
+footer .footerform .textobajoformfooter svg:hover {
+  color: #CD0362;
+}
 
 .tarjeta {
   padding: 19px 45px;
