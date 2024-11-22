@@ -11985,12 +11985,31 @@ header .bg-body-tertiary {
   background: none !important;
 }
 
+footer a {
+  color: #000;
+  font-weight: lighter;
+}
+footer a:hover {
+  color: #CD0362;
+}
+footer .lineadivisorafooter {
+  height: 1px;
+  background-color: #949494;
+}
+footer .lineadivisorafootertop {
+  margin-bottom: 80px;
+}
+footer .lineadivisorafooterbottom {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
 footer img {
   height: auto;
-  width: 273px;
+  width: 100%;
 }
 footer p {
   font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
 }
 footer h5, footer .h5 {
   font-family: "Arimo", sans-serif;

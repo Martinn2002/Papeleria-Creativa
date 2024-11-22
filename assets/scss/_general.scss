@@ -12,13 +12,36 @@ header{
 
 // Footer //
 footer{
+    a{
+        color: $letra-negra;
+        font-weight: lighter;
+        &:hover{
+            color: $rosado-especifico;
+        }
+    }
+
+    .lineadivisorafooter{
+        height: 1px;
+        background-color: $bordes;
+    }
+
+    .lineadivisorafootertop{
+        margin-bottom: 80px;
+    }
+
+    .lineadivisorafooterbottom{
+        margin-top: 80px;
+        margin-bottom: 15px;
+    }
+
     img{
         height: auto;
-        width: 273px;
+        width: 100%;
     }
 
     p{
         font-family: $parrafos;
+        font-weight: lighter;
     }
 
     h5{
