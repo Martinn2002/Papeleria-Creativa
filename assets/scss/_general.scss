@@ -28,7 +28,7 @@ footer{
             color: $letra-negra;
             font-weight: lighter;
             &:hover{
-                color: $rosado-especifico;
+                color: $iconos-home;
             }
         }
     }
@@ -40,6 +40,7 @@ footer{
 
     .lineadivisorafootertop{
         margin-bottom: 80px;
+        margin-top: 50px;
     }
 
     .lineadivisorafooterbottom{
@@ -78,7 +79,8 @@ footer{
         input{
             height: 45px; 
             width: 100%;
-
+            border-radius: 6px;
+            outline: none;
         }
 
         button{
@@ -91,6 +93,12 @@ footer{
             border: none;
             border-top-right-radius: 6px;
             border-bottom-right-radius: 6px;
+            &:hover{
+                background-color: $iconos-home;
+                &svg{
+                    color: $parrafos;
+                }
+            }
         }
         svg{
             color: white;
@@ -111,7 +119,7 @@ footer{
             svg{
                 color: $letra-negra;
                 &:hover{
-                    color: $rosado-especifico;
+                    color: $iconos-home;
                 }
                 height: 20px;
                 width: 20px;
@@ -121,6 +129,27 @@ footer{
         }
     }
 }
+
+.copyrightfooter{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    footer{
+        .footerform{
+            button{
+                left: 95%;
+            }
+        }
+        .footerinformacion, .footercontacto, .footerform{
+            margin-top: 50px;
+            h5{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+  
 // Footer//
 
 
