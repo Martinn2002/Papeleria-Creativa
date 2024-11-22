@@ -11984,6 +11984,7 @@ body h5, body .h5, body p {
 * {
   margin: 0 auto;
   padding: 0;
+  padding: 0 auto;
   box-sizing: border-box;
 }
 
@@ -12001,6 +12002,7 @@ footer a {
   font-weight: lighter;
 }
 footer a:hover {
+footer .footerinformacion a:hover, footer .footercontacto a:hover {
   color: #CD0362;
 }
 footer .lineadivisorafooter {
@@ -12014,7 +12016,6 @@ footer .lineadivisorafooterbottom {
   margin-top: 80px;
   margin-bottom: 15px;
 }
-footer img {
   height: auto;
   width: 100%;
 }
@@ -12031,6 +12032,38 @@ footer h5, footer .h5 {
 footer h5, footer .h5, footer img {
   margin-bottom: 40px;
 }
+footer .footerform form {
+  height: 68px;
+}
+footer .footerform input {
+  height: 45px;
+  width: 100%;
+}
+footer .footerform button {
+  position: relative;
+  bottom: 45px;
+  left: 84%;
+  width: 40px;
+  height: 45px;
+  background-color: #C62F7A;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+footer .footerform svg {
+  color: white;
+  vertical-align: baseline;
+}
+footer .footerform .textobajoformfooter {
+  margin-top: 45px;
+}
+footer .footerform .textobajoformfooter h5, footer .footerform .textobajoformfooter .h5 {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+footer .footerform .textobajoformfooter a {
+  margin: 0px;
 
 .tarjeta {
   padding: 19px 45px;
