@@ -19,6 +19,14 @@ header{
 //  Header  //
 
 
+//Seccion Contactanos//
+h1{
+    font-family: $titulos;
+    font-size:$tamaño-h1;
+}
+//Seccion Contactanos//
+
+
 
 
 // Footer //
@@ -188,7 +196,7 @@ footer{
 
 .boton{
     width: auto;
-    padding: 16px 50px;
+    padding: 16px 30px;
     background-color: $boton;
     color: $letra-blanca;
     font-family: $parrafos;

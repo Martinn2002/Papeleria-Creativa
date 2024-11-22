@@ -11996,6 +11996,11 @@ header .bg-body-tertiary {
   background: none !important;
 }
 
+h1, .h1 {
+  font-family: "Arimo", sans-serif;
+  font-size: 32px;
+}
+
 footer .footerinformacion a, footer .footercontacto a {
   color: #000;
   font-weight: lighter;
@@ -12135,7 +12140,7 @@ footer .footerform .textobajoformfooter svg:hover {
 
 .boton {
   width: auto;
-  padding: 16px 50px;
+  padding: 16px 30px;
   background-color: #C62F7A;
   color: #fff;
   font-family: "Nunito Sans", sans-serif;
