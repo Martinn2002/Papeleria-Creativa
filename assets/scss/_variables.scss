@@ -11,3 +11,25 @@ $letra-negra:#000;
 $iconos-home:#E09AA1; //y hover
 $bordes:#949494; //lineas footer
 $seleccion:#F7E8E8; //seleccion en home y "colores"
+
+
+
+// Tamaño de las fuentes por mientras //
+body{
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5, p{
+        font-size: 16px;
+    }
+
+}

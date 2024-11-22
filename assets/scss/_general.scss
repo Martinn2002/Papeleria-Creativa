@@ -1,0 +1,33 @@
+//  Header  //
+header{
+    .bg-body-tertiary{
+        background: none !important;
+    }
+
+}
+//  Header  //
+
+
+
+
+// Footer //
+footer{
+    img{
+        height: auto;
+        width: 273px;
+    }
+
+    p{
+        font-family: $parrafos;
+    }
+
+    h5{
+        font-family: $titulos;
+        font-weight: bold;
+    }
+
+    h5, img{
+        margin-bottom: 40px;
+    }
+}
+// Footer//
