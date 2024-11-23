@@ -12055,6 +12055,12 @@ header .bg-body-tertiary {
   margin-top: 5%;
 }
 
+.mensaje h2, .mensaje .h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
 .formulario-contacto {
   margin-top: 5%;
 }
@@ -12081,11 +12087,25 @@ header .bg-body-tertiary {
 .formulario-contacto button {
   border: #C62F7A;
 }
+.formulario-contacto p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
 
-.mensaje h2, .mensaje .h2 {
-  font-family: "Arimo", sans-serif;
-  font-size: 28px;
+.iconos-contacto1 {
+  padding: 30px;
   text-align: center;
+}
+.iconos-contacto1 svg {
+  width: 50px;
+  height: 50px;
+}
+.iconos-contacto1 p {
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  padding: 10px;
 }
 
 footer .footerinformacion a, footer .footercontacto a {

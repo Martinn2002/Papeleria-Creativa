@@ -72,8 +72,16 @@ header{
 
 
 //Seccion Contactanos//
+
 .seccion-mensaje{
     margin-top: 5%;  
+}
+.mensaje{
+    h2{
+        font-family: $titulos;
+        font-size: $h2;
+        text-align:center;
+    }
 }
 .formulario-contacto{
     margin-top: 5%;
@@ -100,16 +108,26 @@ header{
     button{
         border:#C62F7A;
     }
-}
-
-.mensaje{
-    h2{
-        font-family: $titulos;
-        font-size: $h2;
-        text-align:center;
+    p{
+        font-family:$parrafos;
+        font-size: $letra-parrafo;
+        font-weight: 200;
     }
 }
-
+.iconos-contacto1{
+    padding: 30px;
+    text-align: center;
+    svg{
+        width: 50px;
+        height: 50px;
+    }
+    p{
+        font-size: $letra-parrafo;
+        font-family: $parrafos;
+        font-weight: 300;
+        padding: 10px;
+    }
+}
 
 //Seccion Contactanos//
 
