@@ -12004,10 +12004,134 @@ h1, .h1 {
   height: 100px;
 }
 
+header h5, header .h5 {
+  font-family: "Arimo", sans-serif;
+  margin: 0px;
+}
 header .bg-body-tertiary {
   background: none !important;
 }
+header .dropdown-submenu {
+  position: relative;
+}
+header .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-bottom: -1rem;
+  display: none;
+}
+header .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+header .dropdown-menu {
+  padding: 0px;
+  border-radius: 0px;
+}
+header .containerdelnav {
+  margin: 0px;
+  width: 100%;
+}
+header .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .dropdown-toggle::after {
+  font-size: 0.8em;
+  margin-left: 0.5rem;
+  line-height: 1;
+}
+header .navegador {
+  gap: 20px;
+}
+header .navegador a {
+  padding: 0px;
+}
+header .navegador, header .search-y-otros-nav {
+  margin: 0px;
+}
+header .navegador input, header .search-y-otros-nav input {
+  margin: 0px;
+  width: 100%;
+  border-radius: 0px;
+  border: solid 1px #949494;
+}
+header .navegador .carrito-icono, header .search-y-otros-nav .carrito-icono {
+  height: 27px;
+  width: 27px;
+}
+header .container-principal-header {
+  padding: 0px;
+}
+header .search-y-otros-nav svg {
+  height: 30px;
+  width: 30px;
+  color: #000 !important;
+  vertical-align: text-top;
+  margin-left: 15px;
+}
+header .search-y-otros-nav svg:hover {
+  color: #E09AA1 !important;
+}
+header .search-y-otros-nav button {
+  position: relative;
+  background: none;
+  vertical-align: baseline;
+  border: none;
+  right: 45px;
+  bottom: 4px;
+}
+header .search-y-otros-nav button:hover {
+  background: none;
+}
+header .search-y-otros-nav button:hover svg {
+  color: #E09AA1;
+}
+header .search-y-otros-nav button:active {
+  background: none;
+}
+header .search-y-otros-nav form svg {
+  height: auto;
+  width: auto;
+  color: #000 !important;
+  vertical-align: bottom;
+  margin: 0px;
+}
+header .search-y-otros-nav form svg:hover {
+  color: #E09AA1;
+}
+header .dropdown-item {
+  padding: 10px !important;
+}
+header .dropdown-item:hover {
+  background-color: #FFEEFA;
+}
+header .dropdown-divider {
+  margin: 0px;
+}
+header .btn-outline-success {
+  --bs-btn-active-bg: none;
+}
 
+@media only screen and (max-width: 990px) {
+  .nav-home {
+    display: none;
+  }
+  .nav-categorias, .nav-contacto {
+    margin: 0px;
+  }
+  .container-principal-header .navbar-brand {
+    margin: 0px !important;
+  }
+  form {
+    margin: 0px !important;
+  }
+  .navegador {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    justify-content: space-between;
+  }
+}
 .breadcrumb {
   --bs-breadcrumb-padding-x: 0;
   --bs-breadcrumb-padding-y: 0;
@@ -12152,11 +12276,12 @@ footer .footerform input {
   width: 100%;
   border-radius: 6px;
   outline: none;
+  border: solid 1px #949494;
 }
 footer .footerform button {
   position: relative;
   bottom: 45px;
-  left: 84%;
+  left: 85%;
   width: 40px;
   height: 45px;
   background-color: #C62F7A;
