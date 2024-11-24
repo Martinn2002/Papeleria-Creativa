@@ -12232,6 +12232,11 @@ header .btn-outline-success {
   padding: 10px;
 }
 
+.borde-formu {
+  padding: 20px;
+  border: 1px solid #949494;
+}
+
 footer .footerinformacion a, footer .footercontacto a {
   color: #000;
   font-weight: lighter;
