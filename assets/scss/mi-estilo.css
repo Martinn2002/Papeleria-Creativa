@@ -12149,13 +12149,51 @@ header .btn-outline-success {
 }
 .rowsus form button {
   background: #CD0362;
-  color: white;
+  color: #fff;
   font-size: 16px;
   height: 50px;
   border: none;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   width: 33.3%;
+}
+
+.container-categorias img {
+  width: 100%;
+  position: relative;
+}
+.container-categorias .categoria-grande {
+  cursor: pointer;
+}
+.container-categorias .categoria-grande h4, .container-categorias .categoria-grande .h4, .container-categorias .categoria-grande a {
+  color: #fff;
+  text-decoration: none;
+}
+.container-categorias .categoria-grande h2, .container-categorias .categoria-grande .h2 {
+  font-weight: bold;
+  color: #000 !important;
+}
+.container-categorias .categoria-grande p a {
+  text-decoration: underline;
+}
+.container-categorias .categoria-peque h4, .container-categorias .categoria-peque .h4, .container-categorias .categoria-peque a {
+  color: #CD0362;
+  text-decoration: none;
+}
+.container-categorias .categoria-peque h2, .container-categorias .categoria-peque .h2 {
+  font-weight: bold;
+  color: #000;
+}
+.container-categorias .textos-categorias {
+  position: relative;
+  bottom: 170px;
+}
+.container-categorias .textos-categorias-peque {
+  position: relative;
+  bottom: 90px;
+}
+.container-categorias .textos-categorias, .container-categorias .textos-categorias-peque {
+  left: 20px;
 }
 
 .breadcrumb {
@@ -12327,7 +12365,7 @@ footer .footerform button:hoversvg {
   color: "Nunito Sans", sans-serif;
 }
 footer .footerform svg {
-  color: white;
+  color: #fff;
   vertical-align: baseline;
 }
 footer .footerform .textobajoformfooter {
