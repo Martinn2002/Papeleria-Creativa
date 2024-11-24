@@ -173,6 +173,39 @@ header{
 
 }
 //  Header  //
+
+// Home //
+    .seccionsus{
+        background-color: $rosado-fondo;
+    }
+
+    .rowsus{
+        height: 300px;
+        .labelsus{
+            padding-left: 55px;
+        }
+        form{
+            input{
+                height: 50px;
+                border: solid 1px $rosado-especifico;
+                width: 58%;
+                
+            }
+            button{
+                background: $rosado-especifico;
+                color: white;
+                font-size: $letra-parrafo;
+                height: 50px;
+                border: none;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                width: 33.3%;
+            }
+        }
+    }
+// Home //
+
+
 //breadcrumb//
 .breadcrumb {
     --bs-breadcrumb-padding-x: 0;
