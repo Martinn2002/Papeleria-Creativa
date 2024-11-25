@@ -177,6 +177,7 @@ header{
 // Home //
     .seccionsus{
         background-color: $rosado-fondo;
+        width: 100%;
     }
 
     .rowsus{
@@ -312,6 +313,11 @@ header{
 }
 .formulario-contacto{
     margin-top: 5%;
+    h2{
+        font-size: $h2;
+        font-family: $titulos;
+        color: $rosado-especifico;
+    }
     .form-label{
         font-family: $titulos;
         font-size: $h4;
@@ -361,6 +367,33 @@ header{
 .borde-formu{
     padding: 20px;
     border:1px solid $bordes;
+}
+.contraseña{
+    p{
+        font-family: $parrafos;
+        font-size: $letra-parrafo;
+        font-weight: 300;
+        text-align: right;
+        color:$boton;
+    }
+}
+.linea-vertical{
+    height: 800px;
+    width:0.1%;
+    background-color: $letra-negra;
+}
+.form-check-input {
+    border: 1px solid $bordes;   
+}
+
+.form-check-input:focus {
+    border-color: $boton;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgba(198, 47, 122, 0.25);
+}
+.form-check-input:checked {
+    background-color: $boton;
+    border-color: $boton;
 }
 //registro//
 

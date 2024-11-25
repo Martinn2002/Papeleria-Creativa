@@ -12134,6 +12134,7 @@ header .btn-outline-success {
 }
 .seccionsus {
   background-color: #FFEEFA;
+  width: 100%;
 }
 
 .rowsus {
@@ -12252,6 +12253,11 @@ header .btn-outline-success {
 .formulario-contacto {
   margin-top: 5%;
 }
+.formulario-contacto h2, .formulario-contacto .h2 {
+  font-size: 28px;
+  font-family: "Arimo", sans-serif;
+  color: #CD0362;
+}
 .formulario-contacto .form-label {
   font-family: "Arimo", sans-serif;
   font-size: 20px;
@@ -12299,6 +12305,35 @@ header .btn-outline-success {
 .borde-formu {
   padding: 20px;
   border: 1px solid #949494;
+}
+
+.contraseña p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: right;
+  color: #C62F7A;
+}
+
+.linea-vertical {
+  height: 800px;
+  width: 0.1%;
+  background-color: #000;
+}
+
+.form-check-input {
+  border: 1px solid #949494;
+}
+
+.form-check-input:focus {
+  border-color: #C62F7A;
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem rgba(198, 47, 122, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: #C62F7A;
+  border-color: #C62F7A;
 }
 
 footer .footerinformacion a, footer .footercontacto a {
