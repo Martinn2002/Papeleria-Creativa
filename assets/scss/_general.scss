@@ -7,17 +7,21 @@
     margin: 0 auto;
     width: 80%;
 }
-h1{
-    font-family: $titulos;
-    font-size:$h1;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:$rosado-fondo;
-    width: 100%;
-    height: 100px;
+.titulo-seccion{
+    h1{
+        font-family: $titulos;
+        font-size:$h1;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:$rosado-fondo;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 5%;
+    }
 }
+
 
 //  Header  //
 header{
@@ -396,6 +400,13 @@ header{
     border-color: $boton;
 }
 //registro//
+//Producto//
+.cate-producto{
+    h1{
+        color: $rosado-especifico;
+    }
+}
+//Producto//
 
 
 
