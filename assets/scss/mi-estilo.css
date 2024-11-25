@@ -12421,47 +12421,13 @@ header .btn-outline-success {
   margin-bottom: 75px;
 }
 
-.breadcrumb {
-  --bs-breadcrumb-padding-x: 0;
-  --bs-breadcrumb-padding-y: 0;
-  --bs-breadcrumb-margin-bottom: 1rem;
-  --bs-breadcrumb-bg: ;
-  --bs-breadcrumb-border-radius: ;
-  --bs-breadcrumb-divider-color: var(--bs-secondary-color);
-  --bs-breadcrumb-item-padding-x: 0.5rem;
-  --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
-  display: flex;
-  flex-wrap: none;
-  padding: 10px 10px;
-  margin-bottom: var(--bs-breadcrumb-margin-bottom);
-  font-size: var(--bs-breadcrumb-font-size);
+.ruta {
+  display: inline-flex;
+  justify-content: flex-start;
   list-style: none;
-  background-color: green;
-  border-radius: var(--bs-breadcrumb-border-radius);
 }
-.breadcrumb a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 100;
-}
-.breadcrumb svg {
-  margin-top: 4px;
-}
-
-.breadcrumb-item + .breadcrumb-item {
-  padding-left: 8px;
-  background-color: yellow;
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-  float: left;
-  padding-right: var(--bs-breadcrumb-item-padding-x);
-  color: var(--bs-breadcrumb-divider-color);
-  content: var(--bs-breadcrumb-divider, "/");
-}
-
-.breadcrumb-item.active {
-  color: #cd0362;
+.ruta svg {
+  padding: 2px;
 }
 
 .seccion-mensaje {
@@ -12510,6 +12476,10 @@ header .btn-outline-success {
   font-size: 16px;
   font-weight: 200;
 }
+.formulario-contacto .col-1 {
+  display: flex;
+  justify-content: center;
+}
 
 .iconos-contacto1 {
   padding: 30px;
@@ -12541,7 +12511,7 @@ header .btn-outline-success {
 
 .linea-vertical {
   height: 800px;
-  width: 0.1%;
+  width: 2px;
   background-color: #000;
 }
 
@@ -12562,6 +12532,18 @@ header .btn-outline-success {
 
 .cate-producto h1, .cate-producto .h1 {
   color: #CD0362;
+}
+
+.form-select {
+  color: #949494;
+  border-radius: 4px;
+  margin-bottom: 5%;
+}
+
+.form-select:focus {
+  border-color: #C62F7A;
+  outline: 0;
+  box-shadow: 0 0 0 0.05rem #C62F7A;
 }
 
 footer .footerinformacion a, footer .footercontacto a {
