@@ -12198,6 +12198,17 @@ header .btn-outline-success {
   left: 20px;
 }
 
+.fondo-del-banner {
+  background-image: url(../img/banner-design-geometric-white-grey-overlapping-background-with-copy-space-for-text-free-vector.jpg);
+}
+.fondo-del-banner .carousel-item img {
+  height: 500px;
+  width: 500px;
+}
+.fondo-del-banner .carousel {
+  margin-bottom: 75px;
+}
+
 .breadcrumb {
   --bs-breadcrumb-padding-x: 0;
   --bs-breadcrumb-padding-y: 0;

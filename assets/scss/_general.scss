@@ -256,6 +256,20 @@ header{
             left: 20px;
         }
     }
+
+    .fondo-del-banner{
+        background-image: url(../img/banner-design-geometric-white-grey-overlapping-background-with-copy-space-for-text-free-vector.jpg);
+        .carousel-item{
+            img{
+                height: 500px;
+                width: 500px;
+            }
+        }
+        .carousel{
+            margin-bottom: 75px;
+        }
+    }
+    
 // Home //
 
 
