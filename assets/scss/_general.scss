@@ -175,6 +175,10 @@ header{
         justify-content: space-between;
     }
 
+    .textobajobanner{
+        display: none;
+    }
+
 }
 //  Header  //
 
@@ -219,7 +223,6 @@ header{
             position: relative;
         }
         .categoria-grande{
-            cursor: pointer;
             h4,a{
                 color: $letra-blanca;
                 text-decoration: none;
@@ -276,7 +279,20 @@ header{
             margin-bottom: 75px;
         }
     }
+
+    .textobajobanner{
+        h3{
+            color: $rosado-especifico;
+        }
+        p{
+            font-weight: lighter;
+        }
+
+        margin-bottom: 75px;
+    }
     
+    
+
 // Home //
 
 
@@ -659,3 +675,18 @@ footer{
     opacity: 0.5;
     transition: opacity 0.6s ease;
 }
+
+
+
+// Carrito //
+
+.carrito-brigido{
+    img{
+        width: 100%;
+        height: 187px;
+        object-fit: cover;
+    }
+}
+
+
+// Carrito //
