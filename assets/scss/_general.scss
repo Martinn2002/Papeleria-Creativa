@@ -209,6 +209,10 @@ header{
         }
     }
 
+    .categoriabaja{
+        margin-top: 20px;
+    }
+
     .container-categorias{
         img{
             width: 100%;
@@ -226,8 +230,8 @@ header{
                     color: $letra-negra !important;
                 
             }
-            p{
-                a{
+            a{
+                p{
                     text-decoration: underline;
                 }
                
@@ -245,20 +249,23 @@ header{
         }
         .textos-categorias{
             position: relative;
-            bottom: 170px;
+            top: -170px;
+            text-align: start;
+            left: 20px;
         }
         .textos-categorias-peque{
             position: relative;
-            bottom: 90px;
-        }
-
-        .textos-categorias, .textos-categorias-peque{
+            top: -90px;
+            text-align: start;
             left: 20px;
         }
+
+        
     }
 
     .fondo-del-banner{
-        background-image: url(../img/banner-design-geometric-white-grey-overlapping-background-with-copy-space-for-text-free-vector.jpg);
+        background-image: url(../img/preview.webp);
+        background-size: cover;
         .carousel-item{
             img{
                 height: 500px;
@@ -443,12 +450,12 @@ footer{
     }
 
     .lineadivisorafootertop{
-        margin-bottom: 80px;
+        margin-bottom: 40px;
         margin-top: 50px;
     }
 
     .lineadivisorafooterbottom{
-        margin-top: 80px;
+        margin-top: 40px;
         margin-bottom: 15px;
     }
 
@@ -486,12 +493,12 @@ footer{
             border-radius: 6px;
             outline: none; 
             border: solid 1px $bordes;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-right: none;
         }
 
         button{
-            position: relative;
-            bottom: 45px;
-            left: 85%;
             width: 40px;
             height: 45px;
             background-color: $boton;
