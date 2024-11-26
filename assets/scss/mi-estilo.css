@@ -12482,42 +12482,8 @@ footer .footerform .textobajoformfooter svg:hover {
     margin-bottom: 15px;
   }
 }
-.tarjeta {
-  padding: 19px 45px;
-  height: 458px;
-  border: 1px solid #e3e6e6;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1450980392);
-}
-.tarjeta .img-tarjeta {
-  width: 100%;
-}
-
-.tarjeta:hover {
-  border: 1px solid #d2cfcf;
-  box-shadow: 0px 2px 25px rgba(139, 136, 136, 0.3137254902);
-}
-
-.texto-tarjeta {
-  text-transform: uppercase;
-  text-align: center;
-}
-.texto-tarjeta p {
-  margin-top: 5%;
-  font-weight: 700;
-  font-size: 16px;
-  font-family: "Nunito Sans", sans-serif;
-}
-.texto-tarjeta h4, .texto-tarjeta .h4 {
-  font-size: 20px;
-  font-family: "Arimo", sans-serif;
-  color: #72394E;
-  margin-top: 5%;
-  margin-bottom: 30px;
-}
-
 .boton {
-  width: auto;
+  padding: auto;
   padding: 16px 30px;
   background-color: #C62F7A;
   color: #fff;
@@ -12542,18 +12508,20 @@ footer .footerform .textobajoformfooter svg:hover {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  margin: 50%;
+  color: #000000;
   width: 2rem;
   height: 2rem;
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: 100% 100%;
-  background-color: yellow;
+  background-size: 80% 80%;
+  background-color: rgb(222, 222, 222);
+  border-radius: 60%;
 }
 
 .card {
   padding: 19px 20px;
-  min-width: 0;
+  gap: 10%;
+  width: auto;
   height: auto;
   background-color: #fff;
   border: 1px solid #e3e6e6;
@@ -12581,22 +12549,43 @@ footer .footerform .textobajoformfooter svg:hover {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 10px;
+  height: 10px;
   padding: 0;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-top: 3%;
+  margin-right: 2%;
+  margin-left: 0%;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #1919db;
+  background-color: #000000;
   background-clip: padding-box;
   border: 0;
+  border-radius: 50%;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   opacity: 0.5;
   transition: opacity 0.6s ease;
 }
 
+.slider-productos {
+  display: flex;
+  height: auto;
+  padding: 20px;
+  gap: 2%;
+}
+
+@media only screen and (max-width: 798px) {
+  .slider-productos .t-3, .slider-productos .t-4 {
+    display: none;
+  }
+  .card {
+    padding: 3px 6px;
+  }
+  .boton {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
 .carrito-brigido img {
   width: 100%;
   height: 187px;
