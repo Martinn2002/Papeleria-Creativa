@@ -214,11 +214,12 @@ header{
     }
 
     .categoriabaja{
-        margin-top: 20px;
+        margin-top:-10%;
     }
 
     .container-categorias{
         img{
+            height: auto;
             width: 100%;
             position: relative;
         }
@@ -230,7 +231,7 @@ header{
             h2{
                 font-weight: bold;
                 
-                    color: $letra-negra !important;
+                color: $letra-negra !important;
                 
             }
             a{
