@@ -12226,6 +12226,33 @@ header .btn-outline-success {
   font-weight: lighter;
 }
 
+.textobanner h1, .textobanner .h1 {
+  color: #CD0362 !important;
+  font-weight: bold;
+}
+.textobanner h3, .textobanner .h3 {
+  font-weight: bold;
+  margin: 20px auto;
+}
+.textobanner .links-banner {
+  gap: 30px;
+}
+.textobanner .links-banner a {
+  width: auto;
+  padding: 16px 30px;
+  background-color: #C62F7A;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.textobanner .links-banner a :hover {
+  background-color: #E09AA1;
+  color: #000;
+}
+
 .ruta {
   display: inline-flex;
   justify-content: flex-start;

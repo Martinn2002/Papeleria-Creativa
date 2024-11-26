@@ -1,0 +1,15 @@
+@mixin botongrande{
+        width: auto;
+        padding: 16px 30px;
+        background-color: $boton;
+        color: $letra-blanca;
+        font-family: $parrafos;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-radius: 4px;
+        text-decoration: none;   
+    :hover{
+        background-color: $iconos-home;
+        color: $letra-negra;
+    }
+}
