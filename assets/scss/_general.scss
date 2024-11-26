@@ -415,6 +415,33 @@ header{
     h1{
         color: $rosado-especifico;
     }
+    .contador{
+        width: auto;
+        height: 50px;
+        padding: 10px;
+        border: 1px solid $bordes;
+        border-radius: 4px;
+        svg{
+            width: 30px;
+            height: 30px;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        span{
+            font-size:18px;
+            margin: 0% 3%;
+        }
+    }
+    .boton-producto{
+        margin-top: 2.5%;
+        p{
+            margin-top: 8%;
+            text-align: center;
+            font-family: $parrafos;
+            color:#555555;
+        }
+    }
+
 }
 .form-select {
     color:$bordes;
@@ -663,7 +690,7 @@ footer{
         padding: 3px 6px;
     }
     .boton{
-        padding: 10px 15px;
+        padding: 10px;
         font-size: 14px;
     }
 }

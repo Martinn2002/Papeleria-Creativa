@@ -12338,6 +12338,32 @@ header .btn-outline-success {
 .cate-producto h1, .cate-producto .h1 {
   color: #CD0362;
 }
+.cate-producto .contador {
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #949494;
+  border-radius: 4px;
+}
+.cate-producto .contador svg {
+  width: 30px;
+  height: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.cate-producto .contador span {
+  font-size: 18px;
+  margin: 0% 3%;
+}
+.cate-producto .boton-producto {
+  margin-top: 2.5%;
+}
+.cate-producto .boton-producto p {
+  margin-top: 8%;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  color: #555555;
+}
 
 .form-select {
   color: #949494;
@@ -12555,7 +12581,7 @@ footer .footerform .textobajoformfooter svg:hover {
     padding: 3px 6px;
   }
   .boton {
-    padding: 10px 15px;
+    padding: 10px;
     font-size: 14px;
   }
 }
