@@ -12225,6 +12225,14 @@ header .btn-outline-success {
 .textobajobanner p {
   font-weight: lighter;
 }
+.textobajobanner .icono-textobajobanner svg {
+  height: 50px;
+  width: auto;
+  color: #CD0362;
+}
+.textobajobanner .sinparrafo h3, .textobajobanner .sinparrafo .h3 {
+  margin-top: 8px;
+}
 
 .textobanner h1, .textobanner .h1 {
   color: #CD0362 !important;

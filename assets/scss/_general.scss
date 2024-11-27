@@ -289,8 +289,22 @@ header{
         p{
             font-weight: lighter;
         }
-
         margin-bottom: 75px;
+
+        .icono-textobajobanner{
+            svg{
+                height: 50px;
+                width: auto;
+                color: $rosado-especifico
+            }
+        }
+        .sinparrafo{
+            h3{
+                margin-top: 8px;
+            }
+           
+        }
+
     }
     
     .textobanner{
