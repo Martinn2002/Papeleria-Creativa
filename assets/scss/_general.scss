@@ -180,6 +180,7 @@ header{
         display: none;
     }
 
+
     .categoria-grande{
         height: 180px;
         h4{
@@ -203,11 +204,26 @@ header{
         margin-top: 0px !important;
     }
     
+    .textobanner{
+        margin-top: 25px;
+    }
+
     .textos-categorias{
         top: -90px !important;
     }
     .textos-categorias-grande{
         top: -120px !important;
+    }
+
+    .carousel-inner-banner{
+        height: 100% !important;
+    }
+
+    .imagendentro{
+        img{
+            object-fit: cover;
+        }
+      
     }
 }
 //  Header  //
@@ -353,9 +369,16 @@ header{
             gap: 30px;
             a{
                 @include botongrande ;
+                &:hover{
+                    background-color: $iconos-home;
+                }
             }
         }
         
+    }
+
+    .carousel-control-prev-banner{
+        width: 8%;
     }
 
     

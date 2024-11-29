@@ -12153,11 +12153,21 @@ header .btn-outline-success {
   .categoriabaja {
     margin-top: 0px !important;
   }
+  .textobanner {
+    margin-top: 25px;
+  }
   .textos-categorias {
     top: -90px !important;
   }
   .textos-categorias-grande {
     top: -120px !important;
+  }
+  .carousel-inner-banner {
+    height: 100% !important;
+  }
+  .imagendentro img {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .seccionsus {
@@ -12286,6 +12296,13 @@ header .btn-outline-success {
 .textobanner .links-banner a :hover {
   background-color: #E09AA1;
   color: #000;
+}
+.textobanner .links-banner a:hover {
+  background-color: #E09AA1;
+}
+
+.carousel-control-prev-banner {
+  width: 8%;
 }
 
 .ruta {
