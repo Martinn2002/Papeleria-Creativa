@@ -12136,16 +12136,28 @@ header .btn-outline-success {
     display: none;
   }
   .categoria-grande {
-    height: 300px;
+    height: 180px;
+  }
+  .categoria-grande h4, .categoria-grande .h4 {
+    display: none;
   }
   .categoria-peque {
-    height: 500px;
+    height: 350px;
+  }
+  .h2-grande {
+    width: 100% !important;
   }
   .bannerresponsive {
     display: block;
   }
   .categoriabaja {
     margin-top: 0px !important;
+  }
+  .textos-categorias {
+    top: -90px !important;
+  }
+  .textos-categorias-grande {
+    top: -120px !important;
   }
 }
 .seccionsus {
@@ -12183,6 +12195,9 @@ header .btn-outline-success {
   height: auto;
   width: 100%;
   position: relative;
+}
+.container-categorias .categoria-grande .h2-grande {
+  width: 50%;
 }
 .container-categorias .categoria-grande h4, .container-categorias .categoria-grande .h4, .container-categorias .categoria-grande a {
   color: #fff;

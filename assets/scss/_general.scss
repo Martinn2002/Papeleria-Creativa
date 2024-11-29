@@ -181,11 +181,18 @@ header{
     }
 
     .categoria-grande{
-        height: 300px;
+        height: 180px;
+        h4{
+            display: none;
+        }
     }
 
     .categoria-peque{
-        height: 500px;
+        height: 350px;
+    }
+
+    .h2-grande{
+        width: 100% !important;
     }
 
     .bannerresponsive{
@@ -194,6 +201,13 @@ header{
 
     .categoriabaja{
         margin-top: 0px !important;
+    }
+    
+    .textos-categorias{
+        top: -90px !important;
+    }
+    .textos-categorias-grande{
+        top: -120px !important;
     }
 }
 //  Header  //
@@ -240,6 +254,10 @@ header{
             position: relative;
         }
         .categoria-grande{
+            .h2-grande{
+                width: 50%;
+            }
+        
             h4,a{
                 color: $letra-blanca;
                 text-decoration: none;
