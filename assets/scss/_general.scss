@@ -803,11 +803,71 @@ footer{
 
 .carrito-brigido{
     img{
-        width: 100%;
-        height: 187px;
+        width: 100%; 
+        height: auto;
         object-fit: cover;
     }
 }
 
+.contenedor-contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 0px 16px 0px;
+  }
 
+  .boton-contador {
+    border: none;
+    background: none;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  .boton-contador:focus {
+    outline: none;
+  }
+
+  .valor-contador {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .lineadivisoracarrito{
+    margin: 0px !important; 
+    hr{
+        margin: 0px;
+    }
+    }
+    .columna-envio{
+        form{
+            margin: 5px !important;
+            textarea{
+                resize: none;
+            }
+        }
+        
+    }
+    .textocontinuarcomprando{
+     
+            color: $letra-negra;
+            font-weight: lighter;
+            &:hover{
+                color: $iconos-home;
+            }
+
+        
+    }
+
+    .botoncarrito{
+        border: none;
+        @include botongrande;
+        &:hover{
+            background-color: $iconos-home;
+        }
+    }
+  
 // Carrito //

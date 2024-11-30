@@ -108,9 +108,11 @@
       </div>
   </header>
     <main>
-      <div class="titulo-seccion">
+      <div class="titulo-seccion mb-4">
         <h1>Carrito</h1>
       </div>
+      
+        <!-- Título -->
       <div class="container">
         <div class="row">
           <nav aria-label="ruta">
@@ -124,48 +126,116 @@
           </nav>
         </div>
       </div>
+      <div class="container my-5">
       <div class="container carrito-brigido">
         <div class="row">
-          <div class="col-2 img-carrito">
-            <h5>Producto</h5>
+          <!-- Tabla de Productos -->
+          <div class="col-md-8">
+            <!-- Encabezado de la tabla -->
+            <div class="row text-center">
+              <div class="col-2">Producto</div>
+              <div class="col-4"></div>
+              <div class="col-2">Precio</div>
+              <div class="col-2">Cantidad</div>
+              <div class="col-2 text-end">Total</div>
+            </div>
+            <div class="row lineadivisoracarrito">
+                <hr>
+            </div>
+            <!-- Producto 1 -->
+            <div class="row align-items-center py-3">
+              <div class="col-2 text-center">
+                <img src="assets/img/635.webp" alt="Producto" class="img-fluid">
+              </div>
+              <div class="col-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ratione!</p>
+                <select class="form-select" aria-label="Color del producto">
+                  <option selected>Selecciona un color</option>
+                  <option value="1">Rojo</option>
+                  <option value="2">Verde</option>
+                  <option value="3">Azul</option>
+                </select>
+              </div>
+              <div class="col-2 text-center">
+                <p>$100.000</p>
+              </div>
+              <div class="col-2 text-center">
+                <div class="contenedor-contador">
+                  <button class="boton-contador">-</button>
+                  <span class="valor-contador">1</span>
+                  <button class="boton-contador">+</button>
+                </div>
+              </div>
+              <div class="col-2 text-end">
+                <p>$100.000</p>
+              </div>
+            </div>
+            <div class="row lineadivisoracarrito">
+              <hr>
           </div>
-          <div class="col-2">
+            <!-- Producto 2 -->
+            <div class="row align-items-center py-3">
+              <div class="col-2 text-center">
+                <img src="assets/img/700.webp" alt="Producto" class="img-fluid">
+              </div>
+              <div class="col-4">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, fugit!</p>
+              </div>
+              <div class="col-2 text-center">
+                <p>$100.000</p>
+              </div>
+              <div class="col-2 text-center">
+                <div class="contenedor-contador">
+                  <button class="boton-contador">-</button>
+                  <span class="valor-contador">1</span>
+                  <button class="boton-contador">+</button>
+                </div>
+              </div>
+              <div class="col-2 text-end">
+                <p>$100.000</p>
+              </div>
+            </div>
           </div>
-          <div class="col-1">
-           <h5>Precio</h5>
-          </div>
-          <div class="col-2">
-            <h5>Cantidad</h5>
-          </div>
-          <div class="col">
-            <H5>Total</H5>
-          </div>
-          <div class="col-4 ">
-            <h5>Dirección de envio</h5>
-          </div>
-          <hr>
-        </div>
+      
+          <!-- Resumen y Dirección de Envío -->
+          <div class="columna-envio col-md-4 flex-column d-flex justify-content-center">
+            <h5>Dirección de envío</h5>
+              <form>
+                <div class="mb-3">
+                  <input type="text" id="direccion" class="form-control" placeholder="Santiago, Chile" required>
+                </div>
+                <div class="mb-3 text-center">
+                  <p>¿Necesitas boleta o factura?</p> 
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check">
+                      <input type="radio" id="boleta" name="documento" value="boleta" class="form-check-input" checked>
+                      <label for="boleta" class="form-check-label">Boleta</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" id="factura" name="documento" value="factura" class="form-check-input">
+                      <label for="factura" class="form-check-label">Factura</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="notas" class="form-label">Notas</label>
+                  <textarea id="notas" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="mb-3 text-end">
+                  <h5>Subtotal: $200.000</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="botoncarrito">Continuar con el pago</button>
+                </div>
+              </form>
+              <div class="mt-3">
+                <a href="home.html" class="textocontinuarcomprando">Continuar comprando</a>
+              </div>
 
-        <div class="row">
-          <div class="col-2 img-carrito">
-            <img src="assets/img/sphynx-cat-illustration-png.png" alt="">
-          </div>
-          <div class="col-2 align-content-center">
-            <p>un gatito pelado todo bonito jujuju Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, consequuntur?</p>
-          </div>
-          <div class="col-1 align-content-center">
-            <p>$1.000.000</p>
-          </div>
-          <div class="col-2">
-
-          </div>
-          <div class="col">
-
-          </div>
-          <div class="col-4">
           </div>
         </div>
       </div>
+      
     </main>
     <footer>
       <div class="container">
