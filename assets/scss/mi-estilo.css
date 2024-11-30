@@ -12322,24 +12322,25 @@ header .btn-outline-success {
 }
 
 .ruta {
+  margin-bottom: 5%;
   display: inline-flex;
   justify-content: flex-start;
   list-style: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-size: 20px;
 }
 .ruta svg {
   margin-right: 5px;
 }
 .ruta li a {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
   text-decoration: none;
   color: #000;
   margin-right: 5px;
 }
 .ruta .ruta-activo {
   color: #CD0362;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
 }
 
 .seccion-mensaje {
@@ -12442,6 +12443,19 @@ header .btn-outline-success {
   border-color: #C62F7A;
 }
 
+.orden {
+  display: flex;
+  justify-content: flex-end;
+}
+.orden p {
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #72394E;
+}
+.orden .form-select {
+  width: 30%;
+}
+
 .cate-producto h1, .cate-producto .h1 {
   color: #CD0362;
 }
@@ -12482,6 +12496,13 @@ header .btn-outline-success {
   border-color: #C62F7A;
   outline: 0;
   box-shadow: 0 0 0 0.05rem #C62F7A;
+}
+
+.slider-podriainter {
+  margin-top: 7%;
+}
+.slider-podriainter h2, .slider-podriainter .h2 {
+  margin-bottom: 2%;
 }
 
 footer .footerinformacion a, footer .footercontacto a {

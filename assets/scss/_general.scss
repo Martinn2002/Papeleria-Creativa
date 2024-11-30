@@ -391,16 +391,19 @@ header{
 
 //breadcrumb//
 .ruta{
+    margin-bottom: 5%;
     display:inline-flex;
     justify-content: flex-start;
     list-style: none;
+    font-family: $parrafos;
+    font-size: $letra-parrafo;
+    font-weight: 200;
+            font-size: $h4;
         svg{
             margin-right:5px;
         }
         li{
             a{
-                font-family: $parrafos;
-                font-size: $h4;
                 text-decoration: none;
                 color: $letra-negra;
                 margin-right: 5px;
@@ -408,8 +411,7 @@ header{
         }   
         .ruta-activo{
             color: $rosado-especifico;
-            font-family: $parrafos;
-            font-size: $h4;
+            
         }
 }
 //breadcrumb//
@@ -516,6 +518,20 @@ header{
     border-color: $boton;
 }
 //registro//
+//Categoria//
+.orden{
+    display: flex;
+    justify-content: flex-end;
+    p{
+        font-size:$letra-parrafo;
+        font-family: $parrafos;
+        color: $precio-tarjetas;
+    }
+    .form-select{
+        width: 30%;
+    }
+}
+//Categoria//
 //Producto//
 .cate-producto{
     h1{
@@ -547,8 +563,8 @@ header{
             color:#555555;
         }
     }
-
 }
+
 .form-select {
     color:$bordes;
     border-radius:4px;
@@ -560,7 +576,12 @@ header{
     outline: 0;
     box-shadow: 0 0 0 0.05rem #C62F7A;
 }
-  
+.slider-podriainter{
+    margin-top: 7%;
+    h2{
+        margin-bottom: 2%;
+    }
+}
 //Producto//
 
 
