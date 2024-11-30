@@ -12669,4 +12669,73 @@ footer .footerform .textobajoformfooter svg:hover {
   height: 187px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.contenedor-contador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0px 0px 16px 0px;
+}
+
+.boton-contador {
+  border: none;
+  background: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.boton-contador:focus {
+  outline: none;
+}
+
+.valor-contador {
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lineadivisoracarrito {
+  margin: 0px !important;
+}
+.lineadivisoracarrito hr {
+  margin: 0px;
+}
+
+.columna-envio form {
+  margin: 5px !important;
+}
+.columna-envio form textarea {
+  resize: none;
+}
+
+.textocontinuarcomprando {
+  color: #000;
+  font-weight: lighter;
+}
+.textocontinuarcomprando:hover {
+  color: #E09AA1;
+}
+
+.botoncarrito {
+  border: none;
+  width: auto;
+  padding: 16px 30px;
+  background-color: #C62F7A;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.botoncarrito :hover {
+  background-color: #E09AA1;
+  color: #000;
+}
+.botoncarrito:hover {
+  background-color: #E09AA1;
 }/*# sourceMappingURL=mi-estilo.css.map */
