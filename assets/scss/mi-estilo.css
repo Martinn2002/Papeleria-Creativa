@@ -12215,6 +12215,9 @@ header .btn-outline-success {
     width: 20px;
     height: 20px;
   }
+  .ultimasdoscat {
+    margin-top: 40px;
+  }
 }
 .seccionsus {
   background-color: #FFEEFA;
@@ -12487,6 +12490,23 @@ header .btn-outline-success {
 }
 .orden .form-select {
   width: 30%;
+}
+
+.container-categoriaspag .row {
+  margin-bottom: 40px !important;
+}
+
+.pagination {
+  display: inline-flex;
+  padding: 0;
+}
+.pagination .page-link {
+  color: #C62F7A !important;
+}
+.pagination .page-linkactive {
+  background-color: #C62F7A !important;
+  color: #fff !important;
+  border: solid 1px #dee2e6;
 }
 
 .cate-producto h1, .cate-producto .h1 {

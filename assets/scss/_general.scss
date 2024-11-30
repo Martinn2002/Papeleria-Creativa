@@ -267,7 +267,9 @@ header{
         height: 20px;
       }
     
-      
+      .ultimasdoscat{
+        margin-top: 40px;
+      }
     
      
 }
@@ -576,6 +578,29 @@ header{
         width: 30%;
     }
 }
+
+.container-categoriaspag{
+    .row{
+        margin-bottom: 40px !important;
+    }
+}
+
+.pagination {
+    display: inline-flex; 
+    padding: 0;
+    .page-link{
+        color: $boton !important;
+        
+    }
+    .page-linkactive{
+        background-color: $boton !important;
+        color: $letra-blanca !important;
+        border: solid 1px #dee2e6;
+    }
+  }
+
+  
+
 
 //Categoria//
 //Producto//
