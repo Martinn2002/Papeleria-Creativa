@@ -228,6 +228,48 @@ header{
         }
       
     }
+
+    .carrito-brigido .row {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+    
+      .carrito-brigido .col-2, 
+      .carrito-brigido .col-4 {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+    
+      .carritoarriba{
+        display: none !important;
+      }
+
+      .preciooculto, .totaloculto{
+        display: block !important;
+      }
+
+      .lineadivisoracarritoresponsive{
+        display: block !important;
+      }
+      .carrito-brigido .col-2 img {
+        margin-bottom: 15px;
+      }
+    
+      .contenedor-contador {
+        justify-content: space-between;
+      }
+    
+
+      .borrarcarrito svg {
+        width: 20px;
+        height: 20px;
+      }
+    
+      
+    
+     
 }
 //  Header  //
 
@@ -893,4 +935,20 @@ footer{
         }
     }
   
+    .borrarcarrito{
+        border: none;
+        background: none;
+        &:hover{
+            color: $iconos-home;
+        }
+    }
+
+    .preciooculto, .totaloculto{
+        display: none;
+    }
+
+    .lineadivisoracarritoresponsive{
+        display: none;
+    }
+
 // Carrito //

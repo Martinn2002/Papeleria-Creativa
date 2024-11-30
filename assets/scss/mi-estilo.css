@@ -12185,6 +12185,36 @@ header .btn-outline-success {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .carrito-brigido .row {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .carrito-brigido .col-2,
+  .carrito-brigido .col-4 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .carritoarriba {
+    display: none !important;
+  }
+  .preciooculto, .totaloculto {
+    display: block !important;
+  }
+  .lineadivisoracarritoresponsive {
+    display: block !important;
+  }
+  .carrito-brigido .col-2 img {
+    margin-bottom: 15px;
+  }
+  .contenedor-contador {
+    justify-content: space-between;
+  }
+  .borrarcarrito svg {
+    width: 20px;
+    height: 20px;
+  }
 }
 .seccionsus {
   background-color: #FFEEFA;
@@ -12799,4 +12829,20 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 .botoncarrito:hover {
   background-color: #E09AA1;
+}
+
+.borrarcarrito {
+  border: none;
+  background: none;
+}
+.borrarcarrito:hover {
+  color: #E09AA1;
+}
+
+.preciooculto, .totaloculto {
+  display: none;
+}
+
+.lineadivisoracarritoresponsive {
+  display: none;
 }/*# sourceMappingURL=mi-estilo.css.map */
