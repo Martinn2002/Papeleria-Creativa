@@ -522,6 +522,9 @@ header{
 .orden{
     display: flex;
     justify-content: flex-end;
+    .container-order{
+        display: flex;
+    }
     p{
         font-size:$letra-parrafo;
         font-family: $parrafos;
@@ -531,6 +534,7 @@ header{
         width: 30%;
     }
 }
+
 //Categoria//
 //Producto//
 .cate-producto{
@@ -561,6 +565,7 @@ header{
             text-align: center;
             font-family: $parrafos;
             color:#555555;
+            text-decoration: underline;
         }
     }
 }
@@ -583,6 +588,24 @@ header{
     }
 }
 //Producto//
+
+//Terminos y condiciones//
+.terminos{
+    border:1px solid $iconos-home;
+    padding: 10px;
+    border-radius: 4px;
+    height: auto;
+    font-family: $parrafos;
+    font-size: $letra-parrafo;
+    .titulo-condi{
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .subti-condi{
+        font-weight: 700;
+    }
+}
+//Terminos y condiciones//
 
 
 

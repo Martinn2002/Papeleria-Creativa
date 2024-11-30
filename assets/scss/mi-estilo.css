@@ -12447,6 +12447,9 @@ header .btn-outline-success {
   display: flex;
   justify-content: flex-end;
 }
+.orden .container-order {
+  display: flex;
+}
 .orden p {
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
@@ -12484,6 +12487,7 @@ header .btn-outline-success {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
   color: #555555;
+  text-decoration: underline;
 }
 
 .form-select {
@@ -12503,6 +12507,22 @@ header .btn-outline-success {
 }
 .slider-podriainter h2, .slider-podriainter .h2 {
   margin-bottom: 2%;
+}
+
+.terminos {
+  border: 1px solid #E09AA1;
+  padding: 10px;
+  border-radius: 4px;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+.terminos .titulo-condi {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.terminos .subti-condi {
+  font-weight: 700;
 }
 
 footer .footerinformacion a, footer .footercontacto a {
