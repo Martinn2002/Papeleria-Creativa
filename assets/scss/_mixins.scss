@@ -13,4 +13,26 @@
         color: $letra-negra;
     }
 }
-
+@mixin tarjetas{
+        padding: 19px 20px;
+        gap: 10%;
+        width: auto;
+        height: auto;
+        background-color: #fff;
+        border: 1px solid #e3e6e6;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px #00000025;
+        text-align: center;
+        p{
+            font-weight: 700;
+            font-size:$letra-parrafo;
+            font-family: $parrafos;
+            
+        }
+        h4{
+            font-size:$h4;
+            font-family: $titulos;
+            color: $precio-tarjetas;
+            margin-bottom: 30px;
+        }
+}

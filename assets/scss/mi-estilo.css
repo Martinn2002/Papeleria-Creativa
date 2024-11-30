@@ -11992,6 +11992,22 @@ body h5, body .h5, body p {
   width: 80%;
 }
 
+.boton {
+  width: auto;
+  padding: 16px 30px;
+  background-color: #C62F7A;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.boton :hover {
+  background-color: #E09AA1;
+  color: #000;
+}
+
 .titulo-seccion h1, .titulo-seccion .h1 {
   font-family: "Arimo", sans-serif;
   font-size: 32px;
@@ -12311,7 +12327,19 @@ header .btn-outline-success {
   list-style: none;
 }
 .ruta svg {
-  padding: 2px;
+  margin-right: 5px;
+}
+.ruta li a {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  margin-right: 5px;
+}
+.ruta .ruta-activo {
+  color: #CD0362;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
 }
 
 .seccion-mensaje {
@@ -12560,21 +12588,13 @@ footer .footerform .textobajoformfooter svg:hover {
     margin-bottom: 15px;
   }
 }
-.boton {
-  padding: auto;
-  padding: 16px 30px;
-  background-color: #C62F7A;
-  color: #fff;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  text-decoration: none;
+.titulo-slider h2, .titulo-slider .h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 28px;
 }
-
-.boton:hover {
-  background-color: #E09AA1;
+.titulo-slider hr {
   color: #000;
+  height: 1px;
 }
 
 .carousel-inner {
@@ -12666,7 +12686,7 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 .carrito-brigido img {
   width: 100%;
-  height: 187px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
