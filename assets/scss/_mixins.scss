@@ -7,11 +7,13 @@
         font-size: 16px;
         text-transform: uppercase;
         border-radius: 4px;
-        text-decoration: none;   
-    :hover{
-        background-color: $iconos-home;
-        color: $letra-negra;
-    }
+        text-decoration: none;  
+        border: none; 
+}
+@mixin hoverboton{
+    background-color: $iconos-home;
+    color: $letra-negra;
+    border: none;
 }
 @mixin tarjetas{
         padding: 19px 20px;
