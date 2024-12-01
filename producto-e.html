@@ -113,7 +113,6 @@
       </div>
       <div class="container">
         <div class="row">
-          <!-- Breadcrumb -->
           <nav aria-label="ruta">
             <ol class="ruta">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
@@ -121,32 +120,24 @@
               </svg>
               <li class="breadcrumb-item"><a href="home.html">Inicio</a></li>
               <li class="breadcrumb-item"><a href="cate-estampados.html">Estampado</a></li>
-              <li class="breadcrumb-item ruta-activo" aria-current="page">
-                <a class="pag-activa-breadcrumb" href="#">Dispensador de cinta - Scotch</a>
-              </li>
+              <li class="breadcrumb-item ruta-activo" aria-current="page"> <a href="#" class="pag-activa-breadcrumb">Dispensador de cinta-Scotch</a></li>
             </ol>
           </nav>
         </div>
-      </div>
-      
+      </div><!--container-->
       <div class="container">
         <div class="row">
-          <!-- Product Image -->
           <div class="col-md-6">
-            <img src="assets/img/img-producto-color.webp" width="100%" alt="Dispensador de cinta - Scotch">
+            <img src="assets/img/img-producto-color.webp" width="100%">
           </div>
-      
-          <!-- Product Info -->
           <div class="col-md-6 cate-producto">
             <h2>Dispensador de cinta - Scotch</h2>
             <h1>$3.990</h1>
             <hr>
             <h4>Descripción</h4>
-            <p>Dispensador de cinta térmica</p>
-      
-            <!-- Color Selection -->
+            <p>Dispensador de cinta termica</p>
             <h4>Color</h4>
-            <select class="form-select" aria-label="Seleccione un color">
+            <select class="form-select" aria-label="Default select example">
               <option selected>Selecciona una opción</option>
               <option value="1">Rojo</option>
               <option value="2">Verde</option>
@@ -155,30 +146,31 @@
               <option value="5">Rosado</option>
               <option value="6">Celeste</option>
             </select>
-      
-            <!-- Quantity -->
-            <div class="row mt-3">
+            <div class="row">
               <div class="col">
                 <h4>Cantidad</h4>
-              </div>
+              </div>     
             </div>
             <div class="row">
               <div class="col">
-                <div class="contenedor-contador contenedor-contador-producto">
-                  <button class="boton-contador">-</button>
-                  <span class="valor-contador">1</span>
-                  <button class="boton-contador">+</button>
+                <div class="contador">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                    <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+                  </svg>
+                  <span>1</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
                 </div>
               </div>
-              <div class="col boton-producto d-flex flex-column">
-                <button class="boton">Agregar al carro</button>
-                <a class="seguircomprando" href="#">Continuar comprando</a>
+              <div class="col boton-producto">
+                <a href="#" class="boton">Agregar al carro</a>
+                  <p>Continuar comprando</p>
               </div>
-            </div>
-          </div>
+            </div><!--row-->
+          </div></div><!--col-->
         </div>
       </div>
-      
       <section class="slider-podriainter">
         <div class="titulo-slider text-center">
           <h2>También te podría interesar</h2>
