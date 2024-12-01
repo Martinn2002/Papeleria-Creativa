@@ -12215,8 +12215,8 @@ header .btn-outline-success {
     width: 20px;
     height: 20px;
   }
-  .ultimasdoscat {
-    margin-top: 40px;
+  .iconos-contacto {
+    margin-top: 20px;
   }
 }
 .seccionsus {
@@ -12575,6 +12575,10 @@ header .btn-outline-success {
   font-weight: 700;
 }
 
+.contenedor-contador-producto {
+  height: 55px;
+}
+
 footer .footerinformacion a, footer .footercontacto a {
   color: #000;
   font-weight: lighter;
@@ -12773,6 +12777,20 @@ footer .footerform .textobajoformfooter svg:hover {
   .boton {
     padding: 10px;
     font-size: 14px;
+  }
+  .contenedor-contador-producto {
+    height: 43%;
+    margin-top: 5px;
+  }
+  .ultimasdoscat {
+    margin-top: 40px;
+  }
+  .breadcrumb-item a, .breadcrumb-item p {
+    font-size: 14px;
+    text-wrap: nowrap;
+  }
+  .breadcrumb-item .pag-activa-breadcrumb a {
+    color: #CD0362;
   }
 }
 .carrito-brigido img {
