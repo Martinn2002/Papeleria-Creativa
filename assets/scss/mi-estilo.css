@@ -12479,6 +12479,10 @@ header .btn-outline-success {
   border-color: #C62F7A;
 }
 
+.lineadivisoraregistro {
+  display: none;
+}
+
 .orden {
   display: flex;
   justify-content: flex-end;
@@ -12800,6 +12804,13 @@ footer .footerform .textobajoformfooter svg:hover {
   .breadcrumb-item a, .breadcrumb-item p {
     font-size: 14px;
     text-wrap: nowrap;
+  }
+  .linea-vertical {
+    display: none;
+  }
+  .lineadivisoraregistro {
+    display: block;
+    width: 100%;
   }
 }
 .carrito-brigido img {
