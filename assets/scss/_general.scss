@@ -452,6 +452,9 @@ header{
                 color: $letra-negra;
                 margin-right: 5px;
             }
+            .pag-activa-breadcrumb{
+                color: $rosado-especifico !important;   
+            }
         }   
         .ruta-activo{
             color: $rosado-especifico;
@@ -903,12 +906,6 @@ footer{
         a, p{
             font-size: 14px;
             text-wrap: nowrap;
-        }
-        .pag-activa-breadcrumb{
-            a{
-                color: $rosado-especifico ;
-            }
-            
         }
     }
 }

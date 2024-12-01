@@ -12372,6 +12372,9 @@ header .btn-outline-success {
   color: #000;
   margin-right: 5px;
 }
+.ruta li .pag-activa-breadcrumb {
+  color: #CD0362 !important;
+}
 .ruta .ruta-activo {
   color: #CD0362;
 }
@@ -12788,9 +12791,6 @@ footer .footerform .textobajoformfooter svg:hover {
   .breadcrumb-item a, .breadcrumb-item p {
     font-size: 14px;
     text-wrap: nowrap;
-  }
-  .breadcrumb-item .pag-activa-breadcrumb a {
-    color: #CD0362;
   }
 }
 .carrito-brigido img {
