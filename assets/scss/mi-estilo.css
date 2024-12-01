@@ -12456,6 +12456,7 @@ header .btn-outline-success {
   font-weight: 300;
   text-align: right;
   color: #C62F7A;
+  text-decoration: underline;
 }
 
 .linea-vertical {
