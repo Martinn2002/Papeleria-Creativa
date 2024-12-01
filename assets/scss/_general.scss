@@ -564,6 +564,10 @@ header{
     background-color: $boton;
     border-color: $boton;
 }
+
+.lineadivisoraregistro{
+    display: none;
+}
 //registro//
 //Categoria//
 .orden{
@@ -918,7 +922,17 @@ footer{
             text-wrap: nowrap;
         }
     }
+    .linea-vertical{
+        display: none;
+    }
+
+    .lineadivisoraregistro{
+        display: block;
+        width: 100%;
+    }
+
 }
+
 // slider tarjetas y tarjetas//
 
 
