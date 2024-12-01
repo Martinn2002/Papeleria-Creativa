@@ -12002,10 +12002,13 @@ body h5, body .h5, body p {
   text-transform: uppercase;
   border-radius: 4px;
   text-decoration: none;
+  border: none;
 }
-.boton :hover {
+
+.boton:hover {
   background-color: #E09AA1;
   color: #000;
+  border: none;
 }
 
 .titulo-seccion h1, .titulo-seccion .h1 {
@@ -12341,10 +12344,7 @@ header .btn-outline-success {
   text-transform: uppercase;
   border-radius: 4px;
   text-decoration: none;
-}
-.textobanner .links-banner a :hover {
-  background-color: #E09AA1;
-  color: #000;
+  border: none;
 }
 .textobanner .links-banner a:hover {
   background-color: #E09AA1;
@@ -12576,6 +12576,7 @@ header .btn-outline-success {
 }
 
 .terminos {
+  margin-bottom: 1%;
   border: 1px solid #E09AA1;
   padding: 10px;
   border-radius: 4px;
@@ -12879,10 +12880,7 @@ footer .footerform .textobajoformfooter svg:hover {
   text-transform: uppercase;
   border-radius: 4px;
   text-decoration: none;
-}
-.botoncarrito :hover {
-  background-color: #E09AA1;
-  color: #000;
+  border: none;
 }
 .botoncarrito:hover {
   background-color: #E09AA1;

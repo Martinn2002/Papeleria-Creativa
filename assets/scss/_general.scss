@@ -10,6 +10,9 @@
 .boton{
     @include botongrande;
 }
+.boton:hover{
+    @include hoverboton;
+}
 .titulo-seccion{
     h1{
         font-family: $titulos;
@@ -676,6 +679,7 @@ header{
 
 //Terminos y condiciones//
 .terminos{
+    margin-bottom: 1%;
     border:1px solid $iconos-home;
     padding: 10px;
     border-radius: 4px;
@@ -903,7 +907,7 @@ footer{
     .card {
         padding: 3px 6px;
     }
-    .boton,{
+    .boton{
         padding: 10px;
         font-size: 14px;
     }
