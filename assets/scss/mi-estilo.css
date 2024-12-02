@@ -12520,23 +12520,6 @@ header .btn-outline-success {
 .cate-producto h1, .cate-producto .h1 {
   color: #CD0362;
 }
-.cate-producto .contador {
-  width: auto;
-  height: 50px;
-  padding: 10px;
-  border: 1px solid #949494;
-  border-radius: 4px;
-}
-.cate-producto .contador svg {
-  width: 30px;
-  height: 30px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.cate-producto .contador span {
-  font-size: 18px;
-  margin: 0% 3%;
-}
 
 .boton-producto button {
   border: none;
@@ -12701,6 +12684,13 @@ footer .footerform .textobajoformfooter svg:hover {
     margin-bottom: 15px;
   }
 }
+.cantidad-productos p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #72394E;
+  font-weight: 700;
+}
+
 .titulo-slider h2, .titulo-slider .h2 {
   font-family: "Arimo", sans-serif;
   font-size: 28px;
@@ -12729,32 +12719,69 @@ footer .footerform .textobajoformfooter svg:hover {
   border-radius: 60%;
 }
 
+.btnycontador {
+  gap: 10px;
+  width: auto;
+  height: 55px;
+  display: flex;
+}
+.btnycontador .contenedor-contador-producto {
+  width: auto;
+}
+
+.boton-c {
+  padding: 10px 5px;
+  background-color: #C62F7A;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  border-radius: 4px;
+  border: none;
+}
+.boton-c svg {
+  height: 30px;
+  width: 30px;
+  color: #fff;
+}
+
+.boton-c:hover {
+  background-color: #E09AA1;
+  color: #000;
+  border: none;
+}
+
 .card {
   padding: 19px 20px;
   gap: 10%;
   width: auto;
-  height: auto;
+  height: 450px;
   background-color: #fff;
   border: 1px solid #e3e6e6;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1450980392);
+  text-align: center;
   text-align: center;
 }
 .card p {
   font-weight: 700;
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
+  margin-top: -30%;
 }
 .card h4, .card .h4 {
   font-size: 20px;
   font-family: "Arimo", sans-serif;
   color: #72394E;
-  margin-bottom: 30px;
+  margin-bottom: 30%;
 }
 
 .card:hover {
   border: 1px solid #d2cfcf;
   box-shadow: 0px 2px 25px rgba(139, 136, 136, 0.3137254902);
+}
+
+.posi-btn {
+  position: absolute;
+  bottom: 50px;
 }
 
 .carousel-indicators [data-bs-target] {
