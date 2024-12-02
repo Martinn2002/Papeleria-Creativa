@@ -618,23 +618,6 @@ header{
     h1{
         color: $rosado-especifico;
     }
-    .contador{
-        width: auto;
-        height: 50px;
-        padding: 10px;
-        border: 1px solid $bordes;
-        border-radius: 4px;
-        svg{
-            width: 30px;
-            height: 30px;
-            margin-left: 15%;
-            margin-right: 15%;
-        }
-        span{
-            font-size:18px;
-            margin: 0% 3%;
-        }
-    }
 }
 
 .boton-producto{
@@ -864,14 +847,40 @@ footer{
   background-color:rgba(222, 222, 222, 60);
   border-radius: 60%;
 }
+.btnycontador{
+    gap: 10px;
+    width: auto;
+    height: 55px;
+    display: flex;
+    .contenedor-contador-producto{
+        width:auto;
+    }
+
+}
+.boton-c{
+    @include boton-c;
+    svg{
+        height: 30px;
+        width: 30px;
+        color: $letra-blanca;
+    }
+}
+.boton-c:hover{
+    @include hoverboton;
+}
+
 .card {
     @include tarjetas;
+    text-align: center;
 }
 .card:hover{
     border: 1px solid #d2cfcf;
     box-shadow: 0px 2px 25px #8b888850;
 }
-
+.posi-btn{
+    position: absolute;
+    bottom: 50px;
+}
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
