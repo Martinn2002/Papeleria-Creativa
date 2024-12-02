@@ -12741,8 +12741,9 @@ footer .footerform .textobajoformfooter svg:hover {
 .card {
   padding: 19px 20px;
   gap: 10%;
-  width: auto;
-  height: 450px;
+  max-width: 300px;
+  min-width: auto;
+  height: 500px;
   background-color: #fff;
   border: 1px solid #e3e6e6;
   border-radius: 4px;
@@ -12753,7 +12754,7 @@ footer .footerform .textobajoformfooter svg:hover {
   font-weight: 700;
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
-  margin-top: -45px;
+  margin-top: -20%;
 }
 .card p a {
   text-decoration: none;
