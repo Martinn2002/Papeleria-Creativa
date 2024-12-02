@@ -12729,24 +12729,13 @@ footer .footerform .textobajoformfooter svg:hover {
   width: auto;
 }
 
-.boton-c {
-  padding: 10px 5px;
-  background-color: #C62F7A;
-  color: #fff;
-  font-family: "Nunito Sans", sans-serif;
-  border-radius: 4px;
-  border: none;
-}
 .boton-c svg {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   color: #fff;
 }
-
-.boton-c:hover {
-  background-color: #E09AA1;
+.boton-c svg:hover {
   color: #000;
-  border: none;
 }
 
 .card {
@@ -12759,29 +12748,41 @@ footer .footerform .textobajoformfooter svg:hover {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1450980392);
   text-align: center;
-  text-align: center;
 }
 .card p {
   font-weight: 700;
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
-  margin-top: -30%;
+  margin-top: -45px;
+}
+.card p a {
+  text-decoration: none;
 }
 .card h4, .card .h4 {
   font-size: 20px;
   font-family: "Arimo", sans-serif;
   color: #72394E;
-  margin-bottom: 30%;
+  margin-bottom: 15%;
+}
+.card .btn {
+  padding: 14px 30px;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #C62F7A;
+  border-radius: 4px;
+  background-color: #C62F7A;
+}
+.card .btn:hover {
+  color: #000;
+  background-color: #E09AA1;
+  border: 1px solid #E09AA1;
 }
 
 .card:hover {
   border: 1px solid #d2cfcf;
   box-shadow: 0px 2px 25px rgba(139, 136, 136, 0.3137254902);
-}
-
-.posi-btn {
-  position: absolute;
-  bottom: 50px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -12807,6 +12808,7 @@ footer .footerform .textobajoformfooter svg:hover {
 
 .slider-productos {
   display: flex;
+  width: 85%;
   height: auto;
   padding: 20px;
   gap: 2%;
@@ -12822,6 +12824,12 @@ footer .footerform .textobajoformfooter svg:hover {
   }
   .card {
     padding: 3px 6px;
+  }
+  .card .btnycontador {
+    display: block;
+  }
+  .card .btnycontador .btn {
+    padding: 14px 60px;
   }
   .contenedor-contador-producto {
     height: 50%;
@@ -12863,6 +12871,7 @@ footer .footerform .textobajoformfooter svg:hover {
   background: none;
   padding: 0 10px;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .boton-contador:focus {
@@ -12955,21 +12964,4 @@ footer .footerform .textobajoformfooter svg:hover {
   margin-top: 30px;
   width: 150%;
   margin-left: -30%;
-}
-
-.btn {
-  padding: 14px 30px;
-  font-family: "Nunito Sans", sans-serif;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #fff;
-  border: 1px solid #C62F7A;
-  border-radius: 4px;
-  background-color: #C62F7A;
-}
-
-.btn:hover {
-  color: #000;
-  background-color: #E09AA1;
-  border: none;
 }/*# sourceMappingURL=mi-estilo.css.map */
