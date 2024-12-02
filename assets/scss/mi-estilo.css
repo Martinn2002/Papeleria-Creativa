@@ -12823,10 +12823,6 @@ footer .footerform .textobajoformfooter svg:hover {
   .card {
     padding: 3px 6px;
   }
-  .boton {
-    padding: 10px;
-    font-size: 14px;
-  }
   .contenedor-contador-producto {
     height: 50%;
   }
@@ -12959,4 +12955,21 @@ footer .footerform .textobajoformfooter svg:hover {
   margin-top: 30px;
   width: 150%;
   margin-left: -30%;
+}
+
+.btn {
+  padding: 14px 30px;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #C62F7A;
+  border-radius: 4px;
+  background-color: #C62F7A;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #E09AA1;
+  border: none;
 }/*# sourceMappingURL=mi-estilo.css.map */
