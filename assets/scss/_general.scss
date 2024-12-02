@@ -816,7 +816,16 @@ footer{
 }
   
 // Footer//
-
+//categoria//
+.cantidad-productos{
+    p{
+        font-family: $parrafos;
+        font-size: $letra-parrafo;
+        color: $precio-tarjetas;
+        font-weight: 700;
+    }
+}
+//categoria//
 // slider tarjetas y tarjetas//
 .titulo-slider{
     h2{

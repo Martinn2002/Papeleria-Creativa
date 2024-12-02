@@ -12684,6 +12684,13 @@ footer .footerform .textobajoformfooter svg:hover {
     margin-bottom: 15px;
   }
 }
+.cantidad-productos p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #72394E;
+  font-weight: 700;
+}
+
 .titulo-slider h2, .titulo-slider .h2 {
   font-family: "Arimo", sans-serif;
   font-size: 28px;
