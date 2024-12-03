@@ -12258,6 +12258,9 @@ header .btn-outline-success {
   width: 100%;
   position: relative;
 }
+.container-categorias img:hover {
+  box-shadow: 0px 6px 30px rgba(139, 136, 136, 0.4392156863);
+}
 .container-categorias .categoria-grande .h2-grande {
   width: 50%;
 }
