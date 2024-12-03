@@ -31,6 +31,13 @@
 
 //  Header  //
 header{
+    .imagendentro{
+        img:hover{
+            overflow: hidden;
+            transform: scale(1.1);
+            transition: all 0.5s;
+        }
+    }
     h5{
         font-family: $titulos;
         margin: 0px; 
@@ -313,15 +320,21 @@ header{
     }
 
     .container-categorias{
+        
         img{
             height: auto;
             width: 100%;
             position: relative;
+            border-radius: 4px;
+            transition: all 0.5s;
         }
         img:hover{
+            overflow: hidden;
+            transform: scale(1.1);
             box-shadow: 0px 6px 30px #8b888870;
         }
         .categoria-grande{
+           
             .h2-grande{
                 width: 50%;
             }
@@ -859,18 +872,6 @@ footer{
   background-color:rgba(222, 222, 222, 60);
   border-radius: 60%;
 }
-
-.boton-c{
-    svg{
-        height: 25px;
-        width: 25px;
-        color: $letra-blanca;
-    }
-    svg:hover{
-        color: $letra-negra;
-    }
-}
-
 
 .card {
     @include tarjetas; 

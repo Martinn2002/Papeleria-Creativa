@@ -12024,6 +12024,11 @@ body h5, body .h5, body p {
   margin-bottom: 5%;
 }
 
+header .imagendentro img:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
 header h5, header .h5 {
   font-family: "Arimo", sans-serif;
   margin: 0px;
@@ -12257,8 +12262,12 @@ header .btn-outline-success {
   height: auto;
   width: 100%;
   position: relative;
+  border-radius: 4px;
+  transition: all 0.5s;
 }
 .container-categorias img:hover {
+  overflow: hidden;
+  transform: scale(1.1);
   box-shadow: 0px 6px 30px rgba(139, 136, 136, 0.4392156863);
 }
 .container-categorias .categoria-grande .h2-grande {
@@ -12720,15 +12729,6 @@ footer .footerform .textobajoformfooter svg:hover {
   background-size: 80% 80%;
   background-color: rgb(222, 222, 222);
   border-radius: 60%;
-}
-
-.boton-c svg {
-  height: 25px;
-  width: 25px;
-  color: #fff;
-}
-.boton-c svg:hover {
-  color: #000;
 }
 
 .card {
