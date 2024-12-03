@@ -38,6 +38,11 @@ header{
             transition: all 0.5s;
         }
     }
+
+    .icono-activo, .active{
+        color: $rosado-especifico !important;
+    }
+
     h5{
         font-family: $titulos;
         margin: 0px; 
@@ -63,6 +68,7 @@ header{
     .dropdown-menu{
         padding: 0px;
         border-radius: 0px;
+        position: absolute !important;
     }
 
     .containerdelnav{
@@ -112,7 +118,7 @@ header{
         svg{
             height: 30px;
             width: 30px;
-            color: $letra-negra !important;
+            color: $letra-negra;
             vertical-align: text-top;
             margin-left: 15px;
             &:hover{
@@ -168,6 +174,11 @@ header{
 }
 
 @media only screen and (max-width: 990px) {
+
+    .nav-contacto{
+        display: none;
+    }
+
     .nav-home{
         display: none;
     }
@@ -928,6 +939,7 @@ footer{
     gap:2%;
 }
 @media only screen and (max-width: 798px){
+
 
     .titulocontrarecuperar{
         text-align: center;
