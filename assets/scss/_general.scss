@@ -295,6 +295,7 @@ header{
       }
     .iconos-contacto{
         margin-top: 20px;
+        display: flex;
     }
     
      
@@ -595,6 +596,9 @@ header{
         display: flex;
         justify-content: center;
     }
+}
+.iconos-contacto{
+    display: block;
 }
 .iconos-contacto1{
     padding: 30px;

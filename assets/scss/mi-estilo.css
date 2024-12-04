@@ -12232,6 +12232,7 @@ header .btn-outline-success {
   }
   .iconos-contacto {
     margin-top: 20px;
+    display: flex;
   }
 }
 .seccionsus {
@@ -12487,6 +12488,10 @@ header .btn-outline-success {
 .formulario-contacto .col-1 {
   display: flex;
   justify-content: center;
+}
+
+.iconos-contacto {
+  display: block;
 }
 
 .iconos-contacto1 {
