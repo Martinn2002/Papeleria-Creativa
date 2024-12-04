@@ -438,11 +438,7 @@ header{
             left: 5% ;
             top: 55% ;
             
-        }
-
-    
-
-        
+        }  
     }
 
     .fondo-del-banner{
@@ -923,7 +919,7 @@ footer{
 .carousel-inner {
     position: relative;
     width: 100%;
-    height:550px;
+    height:600px;
     margin-bottom: 20px;
 }
 
@@ -973,7 +969,7 @@ footer{
   width: 10px;
   height:10px;
   padding: 0;
-  margin-top: 10%;
+  margin-top: -6%;
   margin-right: 2%;
   margin-left: 0%;
   text-indent: -999px;
@@ -998,8 +994,14 @@ footer{
     gap:2%;
 }
 @media only screen and (max-width: 798px){
+    .container-categoriaspag{
+        .card{  
+            min-width: auto;
+            min-height:390px;
+        }
+    }
     .carousel-inner{
-        height: 600px;
+        height:550px;
         margin-bottom: 40px;
     }
     .titulocontrarecuperar{
@@ -1014,7 +1016,8 @@ footer{
     }
     .card {
         padding: 3px 6px 35px;
-        min-height: auto;
+        max-height: 570px;
+        max-width: 300px;
     }
     .contenedor-contador-producto{
         height: 50%;

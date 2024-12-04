@@ -12767,7 +12767,7 @@ footer .footerform .textobajoformfooter svg:hover {
 .carousel-inner {
   position: relative;
   width: 100%;
-  height: 550px;
+  height: 600px;
   margin-bottom: 20px;
 }
 
@@ -12787,6 +12787,7 @@ footer .footerform .textobajoformfooter svg:hover {
 .card {
   padding: 19px 10px 10px;
   gap: 10%;
+  min-width: 260px;
   min-height: 470px;
   background-color: #fff;
   border: 1px solid #e3e6e6;
@@ -12839,7 +12840,7 @@ footer .footerform .textobajoformfooter svg:hover {
   width: 10px;
   height: 10px;
   padding: 0;
-  margin-top: 10%;
+  margin-top: -6%;
   margin-right: 2%;
   margin-left: 0%;
   text-indent: -999px;
@@ -12866,8 +12867,12 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 
 @media only screen and (max-width: 798px) {
+  .container-categoriaspag .card {
+    min-width: auto;
+    min-height: 390px;
+  }
   .carousel-inner {
-    height: 600px;
+    height: 550px;
     margin-bottom: 40px;
   }
   .titulocontrarecuperar {
@@ -12879,7 +12884,8 @@ footer .footerform .textobajoformfooter svg:hover {
   }
   .card {
     padding: 3px 6px 35px;
-    min-height: auto;
+    max-height: 570px;
+    max-width: 300px;
   }
   .contenedor-contador-producto {
     height: 50%;
