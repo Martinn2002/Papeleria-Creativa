@@ -206,38 +206,41 @@ header{
 
 
     .categoria-grande{
-        height: 180px;
         h4{
             display: none;
         }
-    }
-
-    .categoria-peque{
-        height: 350px;
-    }
-
-    .h2-grande{
-        width: 100% !important;
     }
 
     .bannerresponsive{
         display: block;
     } 
 
-    .categoriabaja{
-        margin-top: 0px !important;
+    .textos-categorias-grande{
+        h2{
+            width: 50%;
+        }
+    }
+
+    .categoria-grande, .categoria-peque{
+        margin-bottom: 50px;
+    }
+
+    .categoria-grande-ultima{
+        margin-bottom: 0px;
+    }
+
+    .texto-sublimacion{
+        top: 30% !important;
+    }
+
+    .texto-manualidades, .texto-acrilicos{
+        top: 76% !important;
     }
     
     .textobanner{
         margin-top: 25px;
     }
 
-    .textos-categorias{
-        top: -90px !important;
-    }
-    .textos-categorias-grande{
-        top: -120px !important;
-    }
 
     .carousel-inner-banner{
         height: 100% !important;
@@ -330,8 +333,27 @@ header{
         margin-top:-10%;
     }
 
+    .row-categorias-rapido{
+        margin-bottom: 12%;
+    }
+
     .container-categorias{
+        .categoria-grande, .categoria-peque{
+            &:hover{
+                img{
+                    overflow: hidden;
+                    transform: scale(1.02);
+                    box-shadow: 0px 6px 30px #8b888870;
+                }
+                .textos-categorias-grande, .textos-categorias, .textos-categorias-peque{
+                    overflow: hidden;
+                    transform: scale(1.05);
+                    transition: 1.5s;
+                }
+            }
+        }
         
+
         img{
             height: auto;
             width: 100%;
@@ -339,17 +361,8 @@ header{
             border-radius: 4px;
             transition: all 0.5s;
         }
-        img:hover{
-            overflow: hidden;
-            transform: scale(1.1);
-            box-shadow: 0px 6px 30px #8b888870;
-        }
         .categoria-grande{
-           
-            .h2-grande{
-                width: 50%;
-            }
-        
+           position: relative;
             h4,a{
                 color: $letra-blanca;
                 text-decoration: none;
@@ -368,6 +381,7 @@ header{
             }
         }
         .categoria-peque{
+            position: relative;
             h4,a{
                 color: $rosado-especifico;
                 text-decoration: none;
@@ -377,18 +391,52 @@ header{
                 color: $letra-negra;
             }
         }
-        .textos-categorias{
-            position: relative;
-            top: -170px;
+        .texto-sublimacion{
+            position: absolute;
             text-align: start;
-            left: 20px;
+            z-index: 1;
+            left: 5% ;
+            top: 55% ;
         }
-        .textos-categorias-peque{
-            position: relative;
-            top: -90px;
+
+        .categoriabaja{
+            margin-bottom: 70px;
+        }
+
+        .texto-manualidades{
+            position: absolute;
             text-align: start;
-            left: 20px;
+            z-index: 1;
+            left: 10% ;
+            top: 65% ;
         }
+        
+        .texto-acrilicos{
+            position: absolute;
+            text-align: start;
+            z-index: 1;
+            left: 10% ;
+            top: 65% ;
+        }
+
+        .texto-encuadernacion{
+            position: absolute;
+            text-align: start;
+            z-index: 1;
+            left: 5% ;
+            top: 55% ;
+        }
+
+        .texto-vinilo{
+            position: absolute;
+            text-align: start;
+            z-index: 1;
+            left: 5% ;
+            top: 55% ;
+            
+        }
+
+    
 
         
     }
