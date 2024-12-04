@@ -917,6 +917,7 @@ footer{
     position: relative;
     width: 100%;
     height:550px;
+    margin-bottom: 20px;
 }
 
 .carousel-control-prev-icon,
@@ -965,43 +966,48 @@ footer{
   width: 10px;
   height:10px;
   padding: 0;
-  margin-top: 3%;
+  margin-top: 10%;
   margin-right: 2%;
   margin-left: 0%;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000000;
+  background-color:$letra-blanca;
   background-clip: padding-box;
-  border: 0;
+  border:1px solid #bbb;
   border-radius: 50%;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
   opacity: 0.5;
   transition: opacity 0.6s ease;
+  &.active {
+    border:1px solid $rosado-especifico;
+    background-color: $rosado-especifico;
+  }
 }
 .slider-productos{
     display:flex;
     width: 85%;
     height: auto;
+    margin-bottom: 20%;
     padding: 20px;
     gap:2%;
 }
 @media only screen and (max-width: 798px){
-
-
+    .carousel-inner{
+        height: 600px;
+        margin-bottom: 40px;
+    }
     .titulocontrarecuperar{
         text-align: center;
         width: 90%;
     }
 
     .slider-productos{
-        .t-3, .t-4{
+        .t-2, .t-3, .t-4{
             display: none;
         }
     }
     .card {
-        padding: 3px 6px;
-        min-height: none;
+        padding: 3px 6px 35px;
+        min-height: auto;
     }
     .contenedor-contador-producto{
         height: 50%;
