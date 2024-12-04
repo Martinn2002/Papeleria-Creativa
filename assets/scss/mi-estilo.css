@@ -12169,6 +12169,9 @@ header .btn-outline-success {
   .categoria-grande h4, .categoria-grande .h4 {
     display: none;
   }
+  .categoria-grande h2, .categoria-grande .h2 {
+    font-size: 24px;
+  }
   .bannerresponsive {
     display: block;
   }
@@ -12289,6 +12292,8 @@ header .btn-outline-success {
 .container-categorias .categoria-grande h4, .container-categorias .categoria-grande .h4, .container-categorias .categoria-grande a {
   color: #fff;
   text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  font-size: 28px;
 }
 .container-categorias .categoria-grande h2, .container-categorias .categoria-grande .h2 {
   font-weight: bold;

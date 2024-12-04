@@ -209,6 +209,9 @@ header{
         h4{
             display: none;
         }
+        h2{
+            font-size: 24px;
+        }
     }
 
     .bannerresponsive{
@@ -366,12 +369,12 @@ header{
             h4,a{
                 color: $letra-blanca;
                 text-decoration: none;
+                font-family: $titulos;
+                font-size: $h2;
             }
             h2{
                 font-weight: bold;
-                
                 color: $letra-negra !important;
-                
             }
             a{
                 p{
