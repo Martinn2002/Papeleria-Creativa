@@ -12833,6 +12833,10 @@ footer .footerform .textobajoformfooter svg:hover {
   font-family: "Arimo", sans-serif;
   color: #72394E;
 }
+.card .p-anterior {
+  color: #949494;
+  font-size: 16px;
+}
 .card .btn {
   position: absolute;
   margin: 0 auto;
