@@ -12231,8 +12231,24 @@ header .btn-outline-success {
     height: 20px;
   }
   .iconos-contacto {
-    margin-top: 20px;
+    margin-top: 15px;
+  }
+  .iconos-contacto .iconos-contacto1 {
     display: flex;
+  }
+  .iconos-contacto .iconos-contacto1 svg {
+    width: 35px;
+    height: 35px;
+  }
+  .iconos-contacto .iconos-contacto1 p {
+    display: block;
+    font-size: 16px;
+  }
+  .iconos-contacto .iconos-contacto1 .icono-phone svg {
+    margin-top: 20px;
+  }
+  .iconos-contacto .iconos-contacto1 .icono-phone .info-contacto {
+    margin: 10px 0px 5px 30px;
   }
 }
 .seccionsus {
@@ -12495,18 +12511,27 @@ header .btn-outline-success {
 }
 
 .iconos-contacto1 {
-  padding: 30px;
   text-align: center;
+  margin-top: 30px;
 }
 .iconos-contacto1 svg {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
 }
 .iconos-contacto1 p {
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
-  padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
+.info-contacto p {
+  margin: 0;
+}
+.info-contacto .p-contacto {
+  margin-bottom: 10%;
 }
 
 .borde-formu {

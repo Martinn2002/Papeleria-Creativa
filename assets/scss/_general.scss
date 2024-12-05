@@ -294,10 +294,28 @@ header{
         height: 20px;
       }
     .iconos-contacto{
-        margin-top: 20px;
-        display: flex;
-    }
-    
+        margin-top: 15px;
+        .iconos-contacto1{
+            display: flex;
+            svg{
+                width: 35px;
+                height: 35px;
+            }
+            p{
+                display: block;
+                font-size: 16px;
+            }
+            .icono-phone{
+                svg{
+                    margin-top: 20px;
+                }
+                .info-contacto{
+                    margin: 10px 0px 5px 30px;
+                }
+
+            }  
+        }
+    } 
      
 }
 //  Header  //
@@ -597,18 +615,30 @@ header{
     display: block;
 }
 .iconos-contacto1{
-    padding: 30px;
     text-align: center;
+    margin-top: 30px;
     svg{
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+
     }
     p{
         font-size: $letra-parrafo;
         font-family: $parrafos;
         font-weight: 300;
-        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: 12%;
     }
+}
+.info-contacto{
+    p{
+        margin: 0;
+    }
+    .p-contacto{
+        margin-bottom: 10%;
+    }
+    
 }
 
 //Seccion Contactanos//
