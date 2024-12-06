@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,11 +29,11 @@
                     <a class="nav-link" aria-current="page" href="home.html"><h5>Inicio</h5></a>
                   </li>
                   <li class="nav-item dropdown nav-categorias">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       <h5>Categorias</h5>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="cate-estampados.html"><h5>Estampados</h5></a></li>
+                      <li><a class="dropdown-item" href="cate-estampados.html"><h5 class="active">Estampados</h5></a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li class="dropdown-submenu">
                         <a class="dropdown-item dropdown-toggle" href="#"><h5>Vinilos</h5></a>
@@ -49,7 +49,7 @@
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="cate-esferas.html"><h5>Esferas</h5></a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="cate-llavero.html"><h5>Llaveros</h5></a></li>
+                          <li><a class="dropdown-item" href="cate-llaveros.html"><h5>Llaveros</h5></a></li>
                         </ul>
                       </li>
                       <li><hr class="dropdown-divider"></li>
@@ -88,7 +88,7 @@
                     
                   </li>
                   <li class="nav-item nav-contacto">
-                    <a class="nav-link" href="contacto.html"><h5 class="active">Contacto</h5></a>
+                    <a class="nav-link" href="contacto.html"><h5>Contacto</h5></a>
                   </li>             
                 </div>
                 <div class="search-y-otros-nav d-flex">  
@@ -112,82 +112,140 @@
     </header>
     <main>
       <div class="titulo-seccion">
-        <h1>Contáctanos</h1>
+        <h1>Esferas Acrilicas</h1>
       </div>
-      
       <div class="container">
-        <div class="row seccion-mensaje">
+        <div class="row">
           <nav aria-label="ruta">
             <ol class="ruta">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
               </svg>
               <li class="breadcrumb-item"><a href="home.html">Inicio</a></li>
-              <li class="breadcrumb-item ruta-activo" aria-current="page"> <a href="contacto.html" class="pag-activa-breadcrumb">Contáctanos</a></li>
+              <li class="breadcrumb-item"><a href="#">Acrilico</a></li>
+              <li class="breadcrumb-item ruta-activo" aria-current="page"> <a href="cate-textiles.html" class="pag-activa-breadcrumb">Esferas</a></li>
             </ol>
           </nav>
         </div>
-        <div class="row mensaje">
-          <h2>Envianos un Mensaje</h2>
+       </div><!--container-->
+        <div class="row orden text-left margen">
+          <div class="container-order">
+            <p>Ordenar por:</p>
+            <select class="form-select form-select-sm" aria-label="Small select example">
+              <option selected>Posición</option>
+              <option value="1">De menor a mayor</option>
+              <option value="2">De mayor a menor</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="container margen formulario-contacto ">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Nombre*</label>
-              <input type="name" class="form-control" id="exampleFormControlInput1">
-            </div>      
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">E-mail*</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Telefono*</label>
-              <input type="phone" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Mensaje*</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3">
-              <button type="submit" class="boton">Enviar</button>
-            </div>
-            <p>* Campos Obligatorios</p>
-          </div><!--cierre col-->
-          <div class="col-md-6">
-            <div class="iconos-contacto">
-              <div class="  iconos-contacto1 ">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-                    <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
-                  </svg>
-                  <p>papeleria.divertida.chile@gmail.com</p>     
-              </div> 
-              <div class="iconos-contacto1 icono-phone">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                </svg>
-                <div class="info-contacto">
-                  <p>Whatsapp +569 5349 5577.</p>
-                  <p> Sólo compras superiores a $20.000.</p>
-                  <p class="p-contacto">Tiempo de procesamiento de pedidos 2 a 3 dias hábiles</p> 
+        <div class="row cantidad-productos text-rigth margen">
+          <p>8 Producto(s)</p>
+        </div>
+        <div class="container container-categoriaspag">
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <div class="card t-1">
+                <img src="assets/img/esferas1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto.html" class="card-title">Esferas acrilicas 10cm   10u</a></p>
+                  <h4 class="card-text"><span style="text-decoration:line-through;" class="p-anterior">$6.990</span>     $6.000</h4>
+                  <a href="producto.html" class="btn">ver más</a>
                 </div>
               </div>
-              <div class="iconos-contacto1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                </svg>
-                <p>Tienda Online, sin dirección de Retiro</p>   
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="card t-1">
+                <img src="assets/img/esferas2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto-e.html" class="card-title">Corazones acrilicos 8x6cm  10u</a></p>
+                  <h4 class="card-text">$5.990</h4>
+                  <a href="producto-e.html" class="btn">ver más</a>
+                </div>
               </div>
             </div>
-            
+            <div class="col-md-3 col-6 ultimasdoscat">
+              <div class="card t-1">
+                <img src="assets/img/esferas3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto-e.html" class="card-title">Estrella 5 puntas  10u</a></p>
+                  <h4 class="card-text">$6.990</h4>
+                  <a href="producto.html" class="btn">ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 ultimasdoscat">
+              <div class="card t-1">
+                <img src="assets/img/esferas4.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto-e.html" class="card-title">Estrela 6 puntas    10u</a></p>
+                  <h4 class="card-text">$5.990</h4>
+                  <a href="#" class="btn">ver más</a>
+                </div>
+              </div>
+            </div>
           </div>
-        </div><!--cierre row-->
-      </div>
-      
-      
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <div class="card t-1">
+                <img src="assets/img/esferas5.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto-e.html" class="card-title">Pino de navidad </a></p>
+                  <h4 class="card-text">$5.990</h4>
+                  <a href="#" class="btn">ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="card t-1">
+                <img src="assets/img/esferas6.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto-e.html" class="card-title">Pack 5 huevos acrilicos transparentes 12x9cm</a></p>
+                  <h4 class="card-text">$4.500</h4>
+                  <a href="#" class="btn">ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 ultimasdoscat">
+              <div class="card t-1">
+                <img src="assets/img/esferas7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto-e.html" class="card-title">Glitter confetti blanco tornasol</a></p>
+                  <h4 class="card-text"><span style="text-decoration:line-through;" class="p-anterior">$6.990</span>     $5.990</h4>
+                  <a href="#" class="btn">ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 ultimasdoscat">
+              <div class="card t-1">
+                <img src="assets/img/esferas8.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><a href="producto-e.html" class="card-title">Barniz Poli 100ml</a></p>
+                  <h4 class="card-text">$2.990</h4>
+                  <a href="#" class="btn">ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example" style="display: flex;">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link disabled" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link page-linkactive" href="#">1</a></li>
+            <li class="page-item"><a class="page-link disabled" href="#">2</a></li>
+            <li class="page-item"><a class="page-link disabled" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link disabled" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+        
     </main>
     <footer>
       <div class="container">
