@@ -12424,6 +12424,7 @@ header .btn-outline-success {
 }
 .textobanner .links-banner a:hover {
   background-color: #E09AA1;
+  color: #000;
 }
 
 .carousel-control-prev-banner {

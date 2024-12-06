@@ -513,6 +513,7 @@ header{
                 @include botongrande ;
                 &:hover{
                     background-color: $iconos-home;
+                    color: $letra-negra;
                 }
             }
         }
