@@ -12134,6 +12134,7 @@ header .dropdown-item {
 }
 header .dropdown-item:hover {
   background-color: #FFEEFA;
+  color: #000;
 }
 header .dropdown-divider {
   margin: 0px;
@@ -12799,11 +12800,7 @@ footer .footerform .textobajoformfooter svg:hover {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  display: inline-block;
   color: #000000;
-  width: 2rem;
-  height: 2rem;
-  background-repeat: no-repeat;
   background-position: 50%;
   background-size: 80% 80%;
   background-color: rgb(222, 222, 222);
@@ -12865,18 +12862,13 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 
 .carousel-indicators [data-bs-target] {
-  box-sizing: content-box;
-  flex: 0 1 auto;
   width: 10px;
   height: 10px;
-  padding: 0;
   margin-top: -6%;
   margin-right: 2%;
   margin-left: 0%;
-  text-indent: -999px;
   cursor: pointer;
   background-color: #fff;
-  background-clip: padding-box;
   border: 1px solid #bbb;
   border-radius: 50%;
   opacity: 0.5;
@@ -12909,7 +12901,7 @@ footer .footerform .textobajoformfooter svg:hover {
     text-align: center;
     width: 90%;
   }
-  .slider-productos .t-2, .slider-productos .t-3, .slider-productos .t-4 {
+  .slider-productos .t-3, .slider-productos .t-4 {
     display: none;
   }
   .card {
@@ -12933,6 +12925,11 @@ footer .footerform .textobajoformfooter svg:hover {
   .lineadivisoraregistro {
     display: block;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 549px) {
+  .slider-productos .t-2, .slider-productos .t-3, .slider-productos .t-4 {
+    display: none;
   }
 }
 .carrito-brigido img {
