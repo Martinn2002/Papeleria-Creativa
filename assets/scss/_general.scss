@@ -681,14 +681,20 @@ header{
 //Categoria//
 .orden{
     display: flex;
-    justify-content: flex-end;
     .container-order{
-        display: flex;
+        display: flex; 
+        .cantidad-productos{
+            margin: 0 0 0 25px;
+            display: flex;
+            justify-content: flex-start;
+        }
     }
+
     p{
         font-size:$letra-parrafo;
         font-family: $parrafos;
         color: $precio-tarjetas;
+        margin-right: 5px;
     }
     .form-select{
         width: 30%;
@@ -713,10 +719,7 @@ header{
         color: $letra-blanca !important;
         border: solid 1px #dee2e6;
     }
-  }
-
-  
-
+}
 
 //Categoria//
 //Producto//
@@ -922,16 +925,7 @@ footer{
 }
   
 // Footer//
-//categoria//
-.cantidad-productos{
-    p{
-        font-family: $parrafos;
-        font-size: $letra-parrafo;
-        color: $precio-tarjetas;
-        font-weight: 700;
-    }
-}
-//categoria//
+
 // slider tarjetas y tarjetas//
 .titulo-slider{
     h2{

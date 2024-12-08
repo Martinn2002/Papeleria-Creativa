@@ -12577,15 +12577,20 @@ header .btn-outline-success {
 
 .orden {
   display: flex;
-  justify-content: flex-end;
 }
 .orden .container-order {
   display: flex;
+}
+.orden .container-order .cantidad-productos {
+  margin: 0 0 0 25px;
+  display: flex;
+  justify-content: flex-start;
 }
 .orden p {
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
   color: #72394E;
+  margin-right: 5px;
 }
 .orden .form-select {
   width: 30%;
@@ -12775,13 +12780,6 @@ footer .footerform .textobajoformfooter svg:hover {
     margin-bottom: 15px;
   }
 }
-.cantidad-productos p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  color: #72394E;
-  font-weight: 700;
-}
-
 .titulo-slider h2, .titulo-slider .h2 {
   font-family: "Arimo", sans-serif;
   font-size: 28px;
