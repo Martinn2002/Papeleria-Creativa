@@ -12790,7 +12790,6 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 
 .carousel-inner {
-  background-color: rgb(218, 155, 155);
   position: relative;
   width: 100%;
   min-height: 600px;
@@ -12879,7 +12878,6 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 
 .slider-productos {
-  background-color: rgb(126, 219, 126);
   display: flex;
   width: 85%;
   min-height: 500px;
