@@ -12805,69 +12805,10 @@ footer .footerform .textobajoformfooter svg:hover {
   border-radius: 60%;
 }
 
-.cards-home {
-  padding: 19px 10px 10px;
-  gap: 10%;
-  width: 29%;
-  min-height: 470px;
-  background-color: #fff;
-  border: 1px solid #e3e6e6;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1450980392);
-  text-align: center;
-}
-.cards-home p {
-  font-weight: 700;
-  font-size: 16px;
-  font-family: "Nunito Sans", sans-serif;
-}
-.cards-home p a {
-  text-decoration: none;
-}
-.cards-home h4, .cards-home .h4 {
-  font-size: 20px;
-  font-family: "Arimo", sans-serif;
-  color: #72394E;
-}
-.cards-home .p-anterior {
-  color: #949494;
-  font-size: 16px;
-}
-.cards-home img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-}
-.cards-home img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-}
-.cards-home .btn {
-  position: absolute;
-  margin: 0 auto;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 14px 30px;
-  font-family: "Nunito Sans", sans-serif;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #fff;
-  border: 1px solid #C62F7A;
-  border-radius: 4px;
-  background-color: #C62F7A;
-}
-.cards-home .btn:hover {
-  color: #000;
-  background-color: #E09AA1;
-  border: 1px solid #E09AA1;
-}
-
 .card {
   padding: 19px 10px 10px;
   gap: 10%;
-  width: 257px;
+  width: 100%;
   min-height: 470px;
   background-color: #fff;
   border: 1px solid #e3e6e6;
@@ -12943,6 +12884,63 @@ footer .footerform .textobajoformfooter svg:hover {
   margin-bottom: 20%;
   padding: 20px;
   gap: 2%;
+}
+.slider-productos .card {
+  padding: 19px 10px 10px;
+  gap: 10%;
+  width: 100%;
+  min-height: 470px;
+  background-color: #fff;
+  border: 1px solid #e3e6e6;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1450980392);
+  text-align: center;
+}
+.slider-productos .card p {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.slider-productos .card p a {
+  text-decoration: none;
+}
+.slider-productos .card h4, .slider-productos .card .h4 {
+  font-size: 20px;
+  font-family: "Arimo", sans-serif;
+  color: #72394E;
+}
+.slider-productos .card .p-anterior {
+  color: #949494;
+  font-size: 16px;
+}
+.slider-productos .card .img-card {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.slider-productos .card .btn {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px 30px;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #C62F7A;
+  border-radius: 4px;
+  background-color: #C62F7A;
+}
+.slider-productos .card .btn:hover {
+  color: #000;
+  background-color: #E09AA1;
+  border: 1px solid #E09AA1;
+}
+.slider-productos .card:hover {
+  border: 1px solid #d2cfcf;
+  box-shadow: 0px 2px 25px rgba(139, 136, 136, 0.3137254902);
 }
 
 @media only screen and (max-width: 798px) {

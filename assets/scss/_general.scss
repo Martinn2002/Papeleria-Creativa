@@ -953,33 +953,6 @@ footer{
   background-color:rgba(222, 222, 222, 60);
   border-radius: 60%;
 }
-.cards-home{
-    @include tarjetas-home;
-    img{
-        object-fit: cover;
-        width: 100%;
-    }
-    .btn {
-        position: absolute;
-        margin: 0 auto;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 14px 30px;
-        font-family:$parrafos;
-        text-transform: uppercase;
-        font-size:16px;
-        color:$letra-blanca;
-        border: 1px solid $boton;
-        border-radius:4px;
-        background-color: $boton;
-    } 
-    .btn:hover {
-        color:$letra-negra;
-        background-color:$iconos-home;
-        border:1px solid $iconos-home;
-    }
-}
 
 .card {
     @include tarjetas; 
@@ -1032,6 +1005,38 @@ footer{
     margin-bottom: 20%;
     padding: 20px;
     gap:2%;
+    .card {
+        @include tarjetas; 
+        .img-card{
+            object-fit: cover;
+            width: 100%;
+        }
+        .btn {
+            position: absolute;
+            margin: 0 auto;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 14px 30px;
+            font-family:$parrafos;
+            text-transform: uppercase;
+            font-size:16px;
+            color:$letra-blanca;
+            border: 1px solid $boton;
+            border-radius:4px;
+            background-color: $boton;
+        } 
+        .btn:hover {
+            color:$letra-negra;
+            background-color:$iconos-home;
+            border:1px solid $iconos-home;
+        }
+    }
+    .card:hover{
+        border: 1px solid #d2cfcf;
+        box-shadow: 0px 2px 25px #8b888850;
+    }
+
 }
 @media only screen and (max-width: 798px){
     .container-categoriaspag{
