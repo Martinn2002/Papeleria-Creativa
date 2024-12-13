@@ -12790,10 +12790,10 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 
 .carousel-inner {
+  background-color: rgb(218, 155, 155);
   position: relative;
   width: 100%;
-  height: 600px;
-  margin-bottom: 20px;
+  min-height: 600px;
 }
 
 .carousel-control-prev-icon,
@@ -12815,6 +12815,7 @@ footer .footerform .textobajoformfooter svg:hover {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1450980392);
   text-align: center;
+  position: relative;
 }
 .card p {
   font-weight: 700;
@@ -12862,7 +12863,7 @@ footer .footerform .textobajoformfooter svg:hover {
 .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
-  margin-top: -6%;
+  margin-top: 0%;
   margin-right: 2%;
   margin-left: 0%;
   cursor: pointer;
@@ -12878,69 +12879,25 @@ footer .footerform .textobajoformfooter svg:hover {
 }
 
 .slider-productos {
+  background-color: rgb(126, 219, 126);
   display: flex;
   width: 85%;
-  height: auto;
-  margin-bottom: 20%;
+  min-height: 500px;
+  margin-bottom: 50px;
   padding: 20px;
   gap: 2%;
 }
 .slider-productos .card {
-  padding: 19px 10px 10px;
-  gap: 10%;
-  width: 100%;
-  min-height: 470px;
-  background-color: #fff;
-  border: 1px solid #e3e6e6;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1450980392);
-  text-align: center;
+  max-height: 700px;
 }
-.slider-productos .card p {
-  font-weight: 700;
-  font-size: 16px;
-  font-family: "Nunito Sans", sans-serif;
-}
-.slider-productos .card p a {
-  text-decoration: none;
-}
-.slider-productos .card h4, .slider-productos .card .h4 {
-  font-size: 20px;
-  font-family: "Arimo", sans-serif;
-  color: #72394E;
-}
-.slider-productos .card .p-anterior {
-  color: #949494;
-  font-size: 16px;
+.slider-productos .card .card-text {
+  min-height: 100px;
 }
 .slider-productos .card .img-card {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-}
-.slider-productos .card .btn {
-  position: absolute;
-  margin: 0 auto;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 14px 30px;
-  font-family: "Nunito Sans", sans-serif;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #fff;
-  border: 1px solid #C62F7A;
-  border-radius: 4px;
-  background-color: #C62F7A;
-}
-.slider-productos .card .btn:hover {
-  color: #000;
-  background-color: #E09AA1;
-  border: 1px solid #E09AA1;
-}
-.slider-productos .card:hover {
-  border: 1px solid #d2cfcf;
-  box-shadow: 0px 2px 25px rgba(139, 136, 136, 0.3137254902);
+  height: auto;
 }
 
 @media only screen and (max-width: 798px) {
