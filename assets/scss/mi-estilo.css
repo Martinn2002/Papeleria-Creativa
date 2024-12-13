@@ -12883,12 +12883,15 @@ footer .footerform .textobajoformfooter svg:hover {
   display: flex;
   width: 85%;
   min-height: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 20px;
   gap: 2%;
 }
 .slider-productos .card {
   max-height: 700px;
+}
+.slider-productos .card .card-body {
+  min-height: 220px;
 }
 .slider-productos .card .card-text {
   min-height: 100px;
